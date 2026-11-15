@@ -23,5 +23,18 @@
   "unavailable": [
     "Journal online supplement (HTTP 403 at retrieval)",
     "Instructor classroom script mimic_iv_pbl_lab.sql (not yet provided)"
-  ]
+  ],
+  "local_adaptation": {
+    "script": "sql/03_pf80_classroom_final.sql",
+    "date": "2026-11-15",
+    "analysis_scope": "observed arterial PF<80; classroom adaptation",
+    "expanded_code_status_itemids": [
+      223758,
+      228687,
+      229784
+    ],
+    "author_item228687_sensitivity": true,
+    "teacher_script_obtained": false,
+    "supplement_obtained": false
+  }
 }

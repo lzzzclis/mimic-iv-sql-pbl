@@ -1,57 +1,33 @@
-# MIMIC-IV SQL PBL：论文方法复现作业
+# MIMIC-IV SQL PBL 期末小组作业：PF<80课堂适配
 
-基于 Yarnell 等 AJRCCM 2023 论文，以 PostgreSQL 学习队列构建、变量映射、时间窗和结局质控。使用真实观察性数据重新分析，不生成虚拟患者。
+**本地分析已运行并在新会话复核：2569名合格患者，176人首次记录到动脉PF<80，41人在≤3h内IMV，23.30%。** 这是MIMIC-IV 2.2单阈值课堂适配，不是原论文完整17阈值/插补/回归复现。本次更新已整理为公开仓库内容；技术复跑已完成；当前按用户与AI执行单元推进，理解/演练和最终提交待验收。
 
-**状态：准备阶段，尚未产出论文队列与3小时插管率。** 本仓库当前提供作业任务链、固定版本代码来源、只读数据库检查及其真实汇总结果，不代表已完成论文复现。
+## 主要文件
 
-## 研究问题
+- `sql/03_pf80_classroom_final.sql`：可从新会话完整运行的逐行中文注释SQL，Q0/Q1至队列、阈值、结局、基线、质控与分层；只建TEMP表，最终ROLLBACK。
+- `docs/一页结果说明.pdf`与同名文字稿：主要结果、人数、缺失、质控及差异。
+- `docs/三分钟汇报参考稿.md`：请按本人语速演练；实际AI辅助贡献如实记录。
+- `docs/课程要求核对与数据需求.md`：逐页核对PPT后的明确要求，含评分与交付。
+- `docs/变量映射与作者代码对照.md`、`docs/方法差异与资料缺口.md`：字段、来源及改写边界。
+- `docs/结果与质控明细.md`与`results/`：实际聚合，含治疗限制敏感性、基线/阈值时装置两种分层。
+- `docs/自测六题-一页参考答案.pdf`、`docs/自测六题与SQL阅读指南.md`：课堂学习辅助。
 
-在符合入组条件的低氧性呼吸衰竭患者中，首次达到 P:F < 80 mmHg 后，有多少人在3小时内接受有创机械通气？P:F = PaO₂ / FiO₂（FiO₂用小数）。
+旧`sql/02_pf80_teaching.sql`和旧`docs/plans/2026-11-15-primary-analysis.md`仍为历史未提交草稿，不能代替03终版。环境00/01检查仍可独立使用。当前正式计划在课程工程的docs/plans中。
 
-论文 MIMIC 队列报告：3,365名患者，232名达到该阈值，44名在3小时内接受有创通气（19%）。**这些是文献参照值，不是本仓库运行结果。** 两个数据库的原文完整分析包含更多阈值及多重插补；本作业首先实现MIMIC单队列、单阈值的教学版。
+## 如何复跑
 
-## 快速开始
+先连接已挂载且稳定的MIMIC-IV 2.2 PostgreSQL数据库，已有数据无需重建/重导。在pgAdmin选`mimic4`，打开新的Query Tool，载入03脚本后执行全部；查看流程人数、质控失败数和末尾RESULT_JSON汇总。TEMP表仅当前会话有效，末尾回滚清理。也可在已有安全连接环境中使用psql的ON_ERROR_STOP运行。
 
-1. 在获授权的本地环境中准备MIMIC-IV 2.2和PostgreSQL；现有数据库不需要重新导入。
-2. 设置标准PostgreSQL连接参数（PGHOST、PGPORT、PGUSER、PGDATABASE），或直接在pgAdmin中选中已有数据库。不要将连接凭证写进仓库。
-3. 检查表是否就绪：
+程序在两个独立会话中得到相同核心结果；第二个成功会话仅另增“阈值时装置”聚合，既有字段逐项一致。当前按用户指令由用户与AI推进，已完成另会话技术复核；不虚构其他成员或其验收。用户理解仍另行记录。初次执行曾遇外置盘I/O错误并取消，用户授权重试后的两次通过；这不证明硬件问题已修复。
 
-```bash
-psql -X -v ON_ERROR_STOP=1 -f sql/00_preflight.sql
-psql -X -v ON_ERROR_STOP=1 -f sql/01_id_counts.sql
-```
+## 方法要点与缺口
 
-两份SQL仅输出汇总，使用只读事务，不创建或修改原始表。也可在pgAdmin Query Tool逐份执行。
+入组用同一记录时刻的装置/FiO2，阈值时装置用8h内最近非空值，PF使用派生bg的明确动脉结果；限制插管从本地多个原始字段识别，作者单字段口径另作敏感性。单独DNR不等同DNI，未记录不等同full code，未测PF不等同正常。PPT要求的基线分层与原文Table4的阈值时分层分别输出。
 
-4. 获取并核验论文归档代码（只下载，不执行）：
+教师配套SQL尚未取得；期刊补充材料重试仍403；未完成原文100套插补及回归。数据/代码版本和具体差异见`sources.json`和方法说明。原文3,365/232/44/19%只作文献对照，不是本地结果。
 
-```bash
-python3 scripts/fetch_upstream.py
-python3 -m zipfile -e vendor/ObservedThresholdsForIMV-v1.0.1.zip vendor/upstream-v1.0.1
-```
+## 数据边界与贡献
 
-下载内容保存在被Git忽略的vendor目录。获取GitHub开发版可使用：
+自行编写的SQL/文档及经核对聚合仅保存本地，本次公开内容已按用户授权整理；患者级内容仍不公开。患者级记录、ID/事件时间、原始数据、凭证、论文PDF、教师PPT及上游整包不分发。结果包含小分组，已按公开边界核查；后续不上传患者级明细。本稿在AI辅助下准备，小组须按课程规定说明真实贡献；截止日期与平台未见课件明确记载，实际贡献见当前说明。
 
-```bash
-git clone https://github.com/cjyarnell/ObservedThresholdsForIMV.git vendor/ObservedThresholdsForIMV
-git -C vendor/ObservedThresholdsForIMV checkout c58137b62c4e300f396657d44ddce8800e3d581d
-```
-
-## 任务与交付
-
-- [小组作业步骤](docs/assignment.md)：Q1–Q6、分工、检查点和提交物。
-- [方法核对](docs/method-notes.md)：原论文、课堂示例、本地实现之间需要确认的差异。
-- [代码来源](sources.json)：论文DOI、归档版本、GitHub commit与校验值。
-- `results/environment-check.json`：本地数据库可用性汇总；不是研究结果。
-
-计划交付为可复跑SQL、1页结果与差异说明、3分钟小组汇报；截止时间及教师最终要求待确认。完整论文多重插补及回归尚未实现。
-
-## 公开范围
-
-仓库公开自行编写的代码、方法说明和经检查的汇总结果。MIMIC患者明细、ID、事件时间、原始数据、凭证及数据库文件留在授权环境。论文PDF、教师PPT、上游下载包不随仓库再分发；上游资料通过DOI和仓库地址引用，其权利归原权利人。
-
-## 来源
-
-Yarnell CJ et al. *Do Thresholds for Invasive Ventilation in Hypoxemic Respiratory Failure Exist? A Cohort Study.* AJRCCM. 2023;207(3):271–282. [论文](https://doi.org/10.1164/rccm.202206-1092OC) · [代码归档](https://doi.org/10.5281/zenodo.6505220) · [开发仓库](https://github.com/cjyarnell/ObservedThresholdsForIMV)。
-
-本作业文档与初始脚本在AI辅助下整理；组员须理解、复核并按课程规定说明各自贡献，不将工具生成内容冒充独立完成的工作。
+来源：Yarnell CJ et al. AJRCCM 2023;207:271–282，DOI 10.1164/rccm.202206-1092OC；Zenodo v1.0.1 DOI 10.5281/zenodo.6505220；开发版commit c58137b62c4e300f396657d44ddce8800e3d581d。

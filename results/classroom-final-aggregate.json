@@ -1,0 +1,475 @@
+{
+  "analysis": "MIMIC-IV 2.2 classroom adaptation; strict-contemporaneous enrollment; first observed arterial PF<80; device LOCF<=8h",
+  "data_version": "2.2",
+  "study_complete_scope": "single-threshold teaching analysis only",
+  "flow": [
+    {
+      "seq": 1,
+      "step": "source_icu_stays",
+      "n": 73181
+    },
+    {
+      "seq": 2,
+      "step": "adult_non_elective_with_outcome",
+      "n": 62757
+    },
+    {
+      "seq": 3,
+      "step": "eligible_device_observed",
+      "n": 5200
+    },
+    {
+      "seq": 4,
+      "step": "device_and_fio2_ge40",
+      "n": 3309
+    },
+    {
+      "seq": 5,
+      "step": "no_prior_imv_or_trach",
+      "n": 3107
+    },
+    {
+      "seq": 6,
+      "step": "no_documented_intubation_limit_expanded",
+      "n": 2751
+    },
+    {
+      "seq": 7,
+      "step": "first_eligible_stay_per_patient",
+      "n": 2569
+    },
+    {
+      "seq": 8,
+      "step": "first_arterial_pf_lt80",
+      "n": 176
+    },
+    {
+      "seq": 9,
+      "step": "imv_within_3h",
+      "n": 41
+    }
+  ],
+  "qc": [
+    {
+      "check_name": "duplicate_patients",
+      "failures": 0
+    },
+    {
+      "check_name": "duplicate_threshold_stays",
+      "failures": 0
+    },
+    {
+      "check_name": "invalid_enrollment_fio2",
+      "failures": 0
+    },
+    {
+      "check_name": "invalid_threshold_fio2",
+      "failures": 0
+    },
+    {
+      "check_name": "nonarterial_threshold",
+      "failures": 0
+    },
+    {
+      "check_name": "null_outcomes",
+      "failures": 0
+    },
+    {
+      "check_name": "positive_outcome_outside_window",
+      "failures": 0
+    },
+    {
+      "check_name": "threshold_after_followup",
+      "failures": 0
+    },
+    {
+      "check_name": "threshold_after_imv",
+      "failures": 0
+    },
+    {
+      "check_name": "threshold_before_eligibility",
+      "failures": 0
+    }
+  ],
+  "sensitivity": [
+    {
+      "definition": "author_item228687_only",
+      "cohort_n": 2885,
+      "threshold_n": 194,
+      "imv_3h_n": 43,
+      "pct_3h": 22.16
+    },
+    {
+      "definition": "expanded_code_status",
+      "cohort_n": 2569,
+      "threshold_n": 176,
+      "imv_3h_n": 41,
+      "pct_3h": 23.3
+    }
+  ],
+  "code_status": {
+    "candidate_stays_with_records": 1643,
+    "expanded_limited_stays": 356,
+    "author_limited_stays": 6,
+    "values": [
+      {
+        "itemid": 223758,
+        "code_value": "Comfort measures only",
+        "n": 72
+      },
+      {
+        "itemid": 223758,
+        "code_value": "DNI (do not intubate)",
+        "n": 15
+      },
+      {
+        "itemid": 223758,
+        "code_value": "DNR (do not resuscitate)",
+        "n": 131
+      },
+      {
+        "itemid": 223758,
+        "code_value": "DNR / DNI",
+        "n": 539
+      },
+      {
+        "itemid": 223758,
+        "code_value": "Full code",
+        "n": 2754
+      },
+      {
+        "itemid": 228687,
+        "code_value": "DNAR (Do Not Attempt Resuscitation) [DNR]",
+        "n": 10
+      },
+      {
+        "itemid": 228687,
+        "code_value": "DNAR (Do Not Attempt Resuscitation) [DNR] / DNI",
+        "n": 8
+      },
+      {
+        "itemid": 228687,
+        "code_value": "Full code",
+        "n": 122
+      }
+    ]
+  },
+  "strata": [
+    {
+      "baseline_device": "HFNC",
+      "cohort_n": 512,
+      "threshold_n": 48,
+      "imv_3h_n": 8,
+      "pct_3h": 16.67
+    },
+    {
+      "baseline_device": "NIV",
+      "cohort_n": 80,
+      "threshold_n": 6,
+      "imv_3h_n": 1,
+      "pct_3h": 16.67
+    },
+    {
+      "baseline_device": "NRB",
+      "cohort_n": 1977,
+      "threshold_n": 122,
+      "imv_3h_n": 32,
+      "pct_3h": 26.23
+    }
+  ],
+  "threshold_device_strata": [
+    {
+      "threshold_device": "HFNC",
+      "threshold_n": 65,
+      "imv_3h_n": 12,
+      "pct_3h": 18.46
+    },
+    {
+      "threshold_device": "NIV",
+      "threshold_n": 8,
+      "imv_3h_n": 1,
+      "pct_3h": 12.5
+    },
+    {
+      "threshold_device": "NRB",
+      "threshold_n": 103,
+      "imv_3h_n": 28,
+      "pct_3h": 27.18
+    }
+  ],
+  "baseline_categories": [
+    {
+      "variable": "anchor_year_group",
+      "category": "2008 - 2010",
+      "n": 1071
+    },
+    {
+      "variable": "anchor_year_group",
+      "category": "2011 - 2013",
+      "n": 565
+    },
+    {
+      "variable": "anchor_year_group",
+      "category": "2014 - 2016",
+      "n": 474
+    },
+    {
+      "variable": "anchor_year_group",
+      "category": "2017 - 2019",
+      "n": 459
+    },
+    {
+      "variable": "first_careunit",
+      "category": "Cardiac Vascular Intensive Care Unit (CVICU)",
+      "n": 128
+    },
+    {
+      "variable": "first_careunit",
+      "category": "Coronary Care Unit (CCU)",
+      "n": 478
+    },
+    {
+      "variable": "first_careunit",
+      "category": "Medical Intensive Care Unit (MICU)",
+      "n": 679
+    },
+    {
+      "variable": "first_careunit",
+      "category": "Medical/Surgical Intensive Care Unit (MICU/SICU)",
+      "n": 590
+    },
+    {
+      "variable": "first_careunit",
+      "category": "Neuro Intermediate",
+      "n": 13
+    },
+    {
+      "variable": "first_careunit",
+      "category": "Neuro Stepdown",
+      "n": 16
+    },
+    {
+      "variable": "first_careunit",
+      "category": "Neuro Surgical Intensive Care Unit (Neuro SICU)",
+      "n": 32
+    },
+    {
+      "variable": "first_careunit",
+      "category": "Surgical Intensive Care Unit (SICU)",
+      "n": 340
+    },
+    {
+      "variable": "first_careunit",
+      "category": "Trauma SICU (TSICU)",
+      "n": 293
+    },
+    {
+      "variable": "race",
+      "category": "AMERICAN INDIAN/ALASKA NATIVE",
+      "n": 6
+    },
+    {
+      "variable": "race",
+      "category": "ASIAN",
+      "n": 34
+    },
+    {
+      "variable": "race",
+      "category": "ASIAN - ASIAN INDIAN",
+      "n": 6
+    },
+    {
+      "variable": "race",
+      "category": "ASIAN - CHINESE",
+      "n": 27
+    },
+    {
+      "variable": "race",
+      "category": "ASIAN - SOUTH EAST ASIAN",
+      "n": 8
+    },
+    {
+      "variable": "race",
+      "category": "BLACK/AFRICAN",
+      "n": 5
+    },
+    {
+      "variable": "race",
+      "category": "BLACK/AFRICAN AMERICAN",
+      "n": 218
+    },
+    {
+      "variable": "race",
+      "category": "BLACK/CAPE VERDEAN",
+      "n": 14
+    },
+    {
+      "variable": "race",
+      "category": "BLACK/CARIBBEAN ISLAND",
+      "n": 12
+    },
+    {
+      "variable": "race",
+      "category": "HISPANIC OR LATINO",
+      "n": 26
+    },
+    {
+      "variable": "race",
+      "category": "HISPANIC/LATINO - CENTRAL AMERICAN",
+      "n": 3
+    },
+    {
+      "variable": "race",
+      "category": "HISPANIC/LATINO - COLUMBIAN",
+      "n": 7
+    },
+    {
+      "variable": "race",
+      "category": "HISPANIC/LATINO - CUBAN",
+      "n": 2
+    },
+    {
+      "variable": "race",
+      "category": "HISPANIC/LATINO - DOMINICAN",
+      "n": 13
+    },
+    {
+      "variable": "race",
+      "category": "HISPANIC/LATINO - GUATEMALAN",
+      "n": 3
+    },
+    {
+      "variable": "race",
+      "category": "HISPANIC/LATINO - MEXICAN",
+      "n": 2
+    },
+    {
+      "variable": "race",
+      "category": "HISPANIC/LATINO - PUERTO RICAN",
+      "n": 37
+    },
+    {
+      "variable": "race",
+      "category": "HISPANIC/LATINO - SALVADORAN",
+      "n": 1
+    },
+    {
+      "variable": "race",
+      "category": "MULTIPLE RACE/ETHNICITY",
+      "n": 6
+    },
+    {
+      "variable": "race",
+      "category": "NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER",
+      "n": 4
+    },
+    {
+      "variable": "race",
+      "category": "OTHER",
+      "n": 78
+    },
+    {
+      "variable": "race",
+      "category": "PATIENT DECLINED TO ANSWER",
+      "n": 10
+    },
+    {
+      "variable": "race",
+      "category": "PORTUGUESE",
+      "n": 11
+    },
+    {
+      "variable": "race",
+      "category": "UNABLE TO OBTAIN",
+      "n": 23
+    },
+    {
+      "variable": "race",
+      "category": "UNKNOWN",
+      "n": 177
+    },
+    {
+      "variable": "race",
+      "category": "WHITE",
+      "n": 1750
+    },
+    {
+      "variable": "race",
+      "category": "WHITE - BRAZILIAN",
+      "n": 4
+    },
+    {
+      "variable": "race",
+      "category": "WHITE - EASTERN EUROPEAN",
+      "n": 4
+    },
+    {
+      "variable": "race",
+      "category": "WHITE - OTHER EUROPEAN",
+      "n": 42
+    },
+    {
+      "variable": "race",
+      "category": "WHITE - RUSSIAN",
+      "n": 36
+    },
+    {
+      "variable": "sex",
+      "category": "F",
+      "n": 1112
+    },
+    {
+      "variable": "sex",
+      "category": "M",
+      "n": 1457
+    }
+  ],
+  "coverage": {
+    "cohort_n": 2569,
+    "no_arterial_bg": 1482,
+    "no_valid_pf": 1830,
+    "arterial_bg_rows": 2513,
+    "missing_fio2_rows": 1136,
+    "missing_pf_rows": 1136
+  },
+  "input_qc": {
+    "duplicate_device_time_rows": 0,
+    "duplicate_icustay_detail_rows": 0
+  },
+  "primary": {
+    "met_threshold": 176,
+    "imv_within_3h": 41,
+    "pct_3h": 23.3,
+    "early_non_imv_followup_end": 2,
+    "early_non_imv_death": 0,
+    "early_non_imv_icu_discharge": 1,
+    "early_non_imv_120h": 1,
+    "imv_strictly_lt3h": 41,
+    "imv_exactly_3h": 0
+  },
+  "baseline": {
+    "n": 2569,
+    "age_mean": 67.52,
+    "age_median": 68.83688425147649,
+    "female": 1112,
+    "copd": 483,
+    "chf": 1026,
+    "age_missing": 0,
+    "age_q1": 57.30936300072585,
+    "age_q3": 80.11435340586972,
+    "race_unknown": 210,
+    "no_diagnosis_row": 0,
+    "nrb": 1977,
+    "hfnc": 512,
+    "niv": 80,
+    "enrollment_flow_estimate": 1365,
+    "no_code_status_documented": 1362
+  },
+  "reference": {
+    "cohort": 3365,
+    "met_threshold": 232,
+    "imv_within_3h": 44,
+    "pct_3h": 19
+  },
+  "interpretation": "Descriptive method adaptation; does not establish an optimal intubation threshold or treatment effect."
+}

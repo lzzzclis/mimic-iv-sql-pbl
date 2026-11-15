@@ -1,0 +1,29 @@
+{
+  "executed_on": "2026-11-15",
+  "engine": "PostgreSQL 16.15",
+  "data": "MIMIC-IV 2.2",
+  "first_successful_attempt": 2,
+  "fresh_session_recheck_attempt": 3,
+  "all_existing_result_fields_identical": true,
+  "additional_final_aggregation": "threshold-device grouping only; core pipeline unchanged",
+  "qc_zero_failures": 10,
+  "internal_group_totals_match": true,
+  "sql_sha256": "2934c1d71c6ae5c344819997916851c27f00d0a5734adc6ad57ef4be0f4fb502",
+  "journal_supplement": "unavailable_HTTP403",
+  "teacher_sql": "not_found_in_available_materials",
+  "patient_level_data_exported": false,
+  "publicly_pushed": false,
+  "scope": "PF<80 single-threshold classroom adaptation; not full original study",
+  "hardware_incident": "T7 I/O errors during canceled attempt1; retry explicitly authorized by user; does not certify hardware health",
+  "human_peer_rerun": "not_performed; not used as a current execution dependency per user direction",
+  "executed_sql_sha256": "de1089780dce958691bbd3edb19038b239226c59abdbb6c386ebfac2a9f703b2",
+  "post_run_edit": "Chinese comments only; coverage comments corrected during editorial review; executable SQL unchanged",
+  "canonical_sql_sha256": "74395d06ca13ed3d48d2d7324431351df785f1ac8298816802c0398ccac22c9d",
+  "editorial_review": {
+    "date": "2026-11-15",
+    "core_result_changed": false,
+    "sql_executable_text_unchanged": true,
+    "canonical_method": "strip -- line comments; collapse whitespace",
+    "review_canonical_sha256": "fc7e18796a494f44c146adf1f1a674827c2802b19dba717954688097007879af"
+  }
+}
