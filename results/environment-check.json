@@ -1,0 +1,1 @@
+{"checked_on" : "2026-11-15", "data_version" : "MIMIC-IV 2.2", "postgresql_version" : "16.15 (Homebrew)", "patients" : 299712, "admissions" : 431231, "icu_stays" : 73181, "patients_with_icu" : 50920, "hospital_admissions_with_icu" : 66239, "meaning" : "Source database counts only; not the eligible study cohort or intubation outcomes."}

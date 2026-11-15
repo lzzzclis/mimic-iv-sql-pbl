@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "title": "Do Thresholds for Invasive Ventilation in Hypoxemic Respiratory Failure Exist? A Cohort Study",
+    "doi": "10.1164/rccm.202206-1092OC",
+    "citation": "Yarnell CJ et al. Am J Respir Crit Care Med. 2023;207(3):271–282."
+  },
+  "archive": {
+    "doi": "10.5281/zenodo.6505220",
+    "version": "v1.0.1",
+    "url": "https://zenodo.org/api/records/6505220/files/cjyarnell/ObservedThresholdsForIMV-v.1.0.1.zip/content",
+    "md5": "71888de3433061115c51074b2da723cb",
+    "sha256": "29fb62609a183c493dbbdfdbf42702addd7488236a9b3344a0a2433fe6ed7768"
+  },
+  "development": {
+    "url": "https://github.com/cjyarnell/ObservedThresholdsForIMV",
+    "commit": "c58137b62c4e300f396657d44ddce8800e3d581d"
+  },
+  "dataset": {
+    "name": "MIMIC-IV",
+    "local_version": "2.2",
+    "access": "PhysioNet credentialed access and applicable DUA required; not distributed here."
+  },
+  "unavailable": [
+    "Journal online supplement (HTTP 403 at retrieval)",
+    "Instructor classroom script mimic_iv_pbl_lab.sql (not yet provided)"
+  ]
+}
