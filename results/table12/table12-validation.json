@@ -1,0 +1,105 @@
+{
+  "status": "passed_with_data_warning",
+  "data_warning": "one index-admission death timestamp before ICU admission; main retained, death28 marked missing, exclusion sensitivity supplied",
+  "chronology_sensitivity": {
+    "definition": "exclude index-admission death before ICU admission; keep all other definitions",
+    "cohort_n": 2568,
+    "excluded_n": 1,
+    "events": [
+      {
+        "first_event": "120h censored",
+        "n": 243
+      },
+      {
+        "first_event": "Death",
+        "n": 129
+      },
+      {
+        "first_event": "ICU discharge",
+        "n": 1503
+      },
+      {
+        "first_event": "IMV",
+        "n": 693
+      }
+    ],
+    "hosp_death28_n": 497,
+    "threshold_n": 176,
+    "imv_3h_n": 41
+  },
+  "base_aggregate_exactly_matches_previous": true,
+  "cohort_n": 2569,
+  "threshold_n": 176,
+  "imv_3h_n": 41,
+  "sql_qc": [
+    {
+      "check_name": "baseline_device_absent_from_ever",
+      "failures": 0
+    },
+    {
+      "check_name": "baseline_from_future_or_outside_window",
+      "failures": 0
+    },
+    {
+      "check_name": "category_partition_mismatch",
+      "failures": 0
+    },
+    {
+      "check_name": "cohort_changed",
+      "failures": 0
+    },
+    {
+      "check_name": "continuous_observed_missing_mismatch",
+      "failures": 0
+    },
+    {
+      "check_name": "duplicate_person",
+      "failures": 0
+    },
+    {
+      "check_name": "invalid_baseline_values",
+      "failures": 0
+    },
+    {
+      "check_name": "inverted_quartiles",
+      "failures": 0
+    },
+    {
+      "check_name": "null_first_event",
+      "failures": 0
+    },
+    {
+      "check_name": "primary_imv_changed",
+      "failures": 0
+    },
+    {
+      "check_name": "primary_threshold_changed",
+      "failures": 0
+    }
+  ],
+  "cross_stratum_categorical_binary_sums": "passed",
+  "continuous_observed_missing_sums": "passed",
+  "no_patient_level_export": true,
+  "diagnostics": {
+    "baseline_vital_rows": 19481,
+    "baseline_vital_duplicate_keys": 0,
+    "death_imv_ties": 0,
+    "death_discharge_ties": 0,
+    "imv_discharge_ties": 0,
+    "deaths_recorded_before_icu": 1
+  },
+  "sql04_sha256": "90ef5f3ef5580640f1ff2e506d2be50b6b817949f600d2501d0e0ce2c8770bbb",
+  "csv_rows": {
+    "table2-local-adaptation.csv": 43,
+    "table2-chronology-sensitivity.csv": 9,
+    "table1-threshold-definitions.csv": 17,
+    "table2-binary.csv": 32,
+    "q5_result.csv": 1,
+    "table2-categories.csv": 148,
+    "table2-continuous.csv": 16,
+    "table2-qc.csv": 11,
+    "table2-author-mapping-sensitivity.csv": 13
+  },
+  "sql04_path": "sql/04_table2_classroom.sql",
+  "execution_evidence": "Local full-session TEMP execution completed and rolled back; raw local logs are not published."
+}

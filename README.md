@@ -2,6 +2,15 @@
 
 **本地分析已运行并在新会话复核：2569名合格患者，176人首次记录到动脉PF<80，41人在≤3h内IMV，23.30%。** 这是MIMIC-IV 2.2单阈值课堂适配，不是原论文完整17阈值/插补/回归复现。本次更新已整理为公开仓库内容；技术复跑已完成；当前按用户与AI执行单元推进，理解/演练和最终提交待验收。
 
+## 最新：Table1/Table2与独立复核
+
+- [Table1/Table2入口](docs/Table1-Table2准备.md)：17阈值定义、本地基线/随访表、Q5 CSV及缺失/差异说明。
+- [完整补充SQL04](sql/04_table2_classroom.sql)：包含03队列并补Table2，整份执行、TEMP后回滚。
+- [独立盲法复跑](docs/盲法独立复跑核对.md)：先保留不同来源方案，再只给定义独立实现；同口径2569/176/41/23.30%，101项聚合一致。
+- [Q5数字CSV](results/table12/q5_result.csv) · [Table2成表CSV](results/table12/table2-local-adaptation.csv)。
+
+新增Table2已明确1项死亡时间早于ICU入住的异常和剔除敏感性。技术一致不消除方法局限；新增未改主结果，也不代替真人验收。
+
 ## 主要文件
 
 - `sql/03_pf80_classroom_final.sql`：可从新会话完整运行的逐行中文注释SQL，Q0/Q1至队列、阈值、结局、基线、质控与分层；只建TEMP表，最终ROLLBACK。

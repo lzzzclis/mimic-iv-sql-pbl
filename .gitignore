@@ -36,3 +36,14 @@ local/
 .DS_Store
 __pycache__/
 *.pyc
+
+# Explicitly reviewed aggregate CSVs only; all other CSVs remain excluded.
+!results/table12/q5_result.csv
+!results/table12/table1-threshold-definitions.csv
+!results/table12/table2-author-mapping-sensitivity.csv
+!results/table12/table2-binary.csv
+!results/table12/table2-categories.csv
+!results/table12/table2-chronology-sensitivity.csv
+!results/table12/table2-continuous.csv
+!results/table12/table2-local-adaptation.csv
+!results/table12/table2-qc.csv

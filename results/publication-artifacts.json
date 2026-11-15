@@ -1,0 +1,104 @@
+{
+  "scope": "Table1/Table2 teaching adaptation and independent aggregate verification",
+  "data": "MIMIC-IV 2.2; PostgreSQL16",
+  "validation": "101 comparable aggregate checks match; known chronology warning retained",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "296c3bf3becc0c1408e5deab8c5a98b5f85151f276fbda3377602c01dcc4a2aa"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "0b653b72a445e8152feae9de3b01dd20a0c9390a57a2875d930a7c9c2f8bc46b"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c05ace6aba72cd370c050466d8de51d2f895c05c085cd3a6e3448dec7b2b2408"
+    },
+    {
+      "path": "docs/Table1-Table2准备.md",
+      "sha256": "126bce3fe33024dd31236722eecbf2b553bd3c633196d6da29a4a89dd7dafadb"
+    },
+    {
+      "path": "docs/table12/index.html",
+      "sha256": "7a42759290aeb78a8bf690567cc0d5a5ee7f6f76b7195dddeb32d24b304cf04c"
+    },
+    {
+      "path": "docs/盲法独立复跑核对.md",
+      "sha256": "15a14bd9fff95c5f82337da3deb816b5ce486cd2e3fc17498b49dd7f53017ff4"
+    },
+    {
+      "path": "results/blind-review/aggregate-comparison.json",
+      "sha256": "59b87f18ccfec1360dc7c0a78c262c37f99a12c44561299f9d83c718d50d214d"
+    },
+    {
+      "path": "results/blind-review/common-spec-aggregate.json",
+      "sha256": "c0eacb6b106e18f01c7bd4bc083317b2150ffe4e619fb382595d64b4acb78b6c"
+    },
+    {
+      "path": "results/blind-review/source-adaptation-aggregate.json",
+      "sha256": "09e6400323ec851a1fe309fe491d5872fecaed5ab110141ec1ff1278b4797e60"
+    },
+    {
+      "path": "results/table12/q5_result.csv",
+      "sha256": "fdfb2ebe99b0b1c4ea028da21a5474e81c642e9e0b7a53edd2228a1ee21ee840"
+    },
+    {
+      "path": "results/table12/table1-threshold-definitions.csv",
+      "sha256": "d989c5dc07effe9c3f26f3c0838aed14eb3c38643473a3dd3922bec13448384b"
+    },
+    {
+      "path": "results/table12/table12-validation.json",
+      "sha256": "f60db1414634e3f51a19850931451b1896f9d54a004cd3782eee8c3698c2f4be"
+    },
+    {
+      "path": "results/table12/table2-aggregate.json",
+      "sha256": "fdad1b1d3d7dfcf511abf10f986c57e01b08ab23ee95bca61e5808e2bfb28b90"
+    },
+    {
+      "path": "results/table12/table2-author-mapping-sensitivity.csv",
+      "sha256": "62d868b5d113f9a6e87d57ad25f3ac828097cddbb21081994f21cbecce6faf6b"
+    },
+    {
+      "path": "results/table12/table2-binary.csv",
+      "sha256": "a12c0f6ed102e6be377f40c0c9fd91fecaa02d181923c6bf7dce2f710a9ed1bb"
+    },
+    {
+      "path": "results/table12/table2-categories.csv",
+      "sha256": "da5bb4574755a3f13ed002f80238be929642d033ad20b8b72e62be3265139dbd"
+    },
+    {
+      "path": "results/table12/table2-chronology-sensitivity.csv",
+      "sha256": "3cf95ece0f4faff1a05ada05cdbd09a7dae5fb4b4d81d479432424ac0c57e404"
+    },
+    {
+      "path": "results/table12/table2-continuous.csv",
+      "sha256": "9973d7536850836a49b2657cea08751ffdf2c0a7a286762025bd2f2fe657a233"
+    },
+    {
+      "path": "results/table12/table2-local-adaptation.csv",
+      "sha256": "8c0ec760d5006b97748e48d3b54a1f44ca57919f0866368e7000b990c999e876"
+    },
+    {
+      "path": "results/table12/table2-qc.csv",
+      "sha256": "0e5e0a17a8f8a36a739b6fc1c8bdd53bb251c1022ed45a79b5668a224a8fbc4f"
+    },
+    {
+      "path": "sql/04_table2_classroom.sql",
+      "sha256": "90ef5f3ef5580640f1ff2e506d2be50b6b817949f600d2501d0e0ce2c8770bbb"
+    },
+    {
+      "path": "sql/05_independent_source_adaptation.sql",
+      "sha256": "7bb2389948f70ec2c369bfe6efa9ed7880facabd1f24de210e760f481b5835d2"
+    },
+    {
+      "path": "sql/06_independent_common_spec.sql",
+      "sha256": "d60de0efc77d06df35ca0f8ab721c2905f9ceb2c1dc6f44682ca715550fbaa9c"
+    }
+  ],
+  "independently_frozen_sql": {
+    "sql/05_independent_source_adaptation.sql": "7bb2389948f70ec2c369bfe6efa9ed7880facabd1f24de210e760f481b5835d2",
+    "sql/06_independent_common_spec.sql": "d60de0efc77d06df35ca0f8ab721c2905f9ceb2c1dc6f44682ca715550fbaa9c"
+  },
+  "csv_serialization": "UTF-8 BOM retained; CRLF normalized to LF; parsed cells identical to validated local aggregates."
+}

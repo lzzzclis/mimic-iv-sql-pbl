@@ -1,0 +1,631 @@
+{
+  "status": "matched_on_compared_aggregates_with_known_data_warning",
+  "comparison_count": 101,
+  "mismatches": [],
+  "checks": [
+    {
+      "metric": "flow.all_icu_stays",
+      "prior": 73181,
+      "independent_common_spec": 73181,
+      "match": true
+    },
+    {
+      "metric": "flow.base_valid",
+      "prior": 62757,
+      "independent_common_spec": 62757,
+      "match": true
+    },
+    {
+      "metric": "flow.candidate_stays",
+      "prior": 3107,
+      "independent_common_spec": 3107,
+      "match": true
+    },
+    {
+      "metric": "flow.no_limit_stays",
+      "prior": 2751,
+      "independent_common_spec": 2751,
+      "match": true
+    },
+    {
+      "metric": "flow.cohort_patients",
+      "prior": 2569,
+      "independent_common_spec": 2569,
+      "match": true
+    },
+    {
+      "metric": "primary.met_threshold",
+      "prior": 176,
+      "independent_common_spec": 176,
+      "match": true
+    },
+    {
+      "metric": "primary.imv_within_3h",
+      "prior": 41,
+      "independent_common_spec": 41,
+      "match": true
+    },
+    {
+      "metric": "primary.imv_strictly_lt3h",
+      "prior": 41,
+      "independent_common_spec": 41,
+      "match": true
+    },
+    {
+      "metric": "primary.imv_exactly_3h",
+      "prior": 0,
+      "independent_common_spec": 0,
+      "match": true
+    },
+    {
+      "metric": "primary.early_non_imv_followup_end",
+      "prior": 2,
+      "independent_common_spec": 2,
+      "match": true
+    },
+    {
+      "metric": "primary.pct_rounded_2dp",
+      "prior": "23.30",
+      "independent_common_spec": "23.30",
+      "match": true
+    },
+    {
+      "metric": "baseline_stratum.NRB.threshold_n",
+      "prior": 122,
+      "independent_common_spec": 122,
+      "match": true
+    },
+    {
+      "metric": "baseline_stratum.NRB.imv_3h_n",
+      "prior": 32,
+      "independent_common_spec": 32,
+      "match": true
+    },
+    {
+      "metric": "baseline_stratum.HFNC.threshold_n",
+      "prior": 48,
+      "independent_common_spec": 48,
+      "match": true
+    },
+    {
+      "metric": "baseline_stratum.HFNC.imv_3h_n",
+      "prior": 8,
+      "independent_common_spec": 8,
+      "match": true
+    },
+    {
+      "metric": "baseline_stratum.NIV.threshold_n",
+      "prior": 6,
+      "independent_common_spec": 6,
+      "match": true
+    },
+    {
+      "metric": "baseline_stratum.NIV.imv_3h_n",
+      "prior": 1,
+      "independent_common_spec": 1,
+      "match": true
+    },
+    {
+      "metric": "threshold_stratum.NRB.threshold_n",
+      "prior": 103,
+      "independent_common_spec": 103,
+      "match": true
+    },
+    {
+      "metric": "threshold_stratum.NRB.imv_3h_n",
+      "prior": 28,
+      "independent_common_spec": 28,
+      "match": true
+    },
+    {
+      "metric": "threshold_stratum.HFNC.threshold_n",
+      "prior": 65,
+      "independent_common_spec": 65,
+      "match": true
+    },
+    {
+      "metric": "threshold_stratum.HFNC.imv_3h_n",
+      "prior": 12,
+      "independent_common_spec": 12,
+      "match": true
+    },
+    {
+      "metric": "threshold_stratum.NIV.threshold_n",
+      "prior": 8,
+      "independent_common_spec": 8,
+      "match": true
+    },
+    {
+      "metric": "threshold_stratum.NIV.imv_3h_n",
+      "prior": 1,
+      "independent_common_spec": 1,
+      "match": true
+    },
+    {
+      "metric": "table2.category.age_group.18–39",
+      "prior": 174,
+      "independent_common_spec": 174,
+      "match": true
+    },
+    {
+      "metric": "table2.category.age_group.40–49",
+      "prior": 171,
+      "independent_common_spec": 171,
+      "match": true
+    },
+    {
+      "metric": "table2.category.age_group.50–59",
+      "prior": 435,
+      "independent_common_spec": 435,
+      "match": true
+    },
+    {
+      "metric": "table2.category.age_group.60–69",
+      "prior": 567,
+      "independent_common_spec": 567,
+      "match": true
+    },
+    {
+      "metric": "table2.category.age_group.70–79",
+      "prior": 572,
+      "independent_common_spec": 572,
+      "match": true
+    },
+    {
+      "metric": "table2.category.age_group.≥80",
+      "prior": 650,
+      "independent_common_spec": 650,
+      "match": true
+    },
+    {
+      "metric": "table2.category.anchor_age_group.18–39",
+      "prior": 191,
+      "independent_common_spec": 191,
+      "match": true
+    },
+    {
+      "metric": "table2.category.anchor_age_group.40–49",
+      "prior": 212,
+      "independent_common_spec": 212,
+      "match": true
+    },
+    {
+      "metric": "table2.category.anchor_age_group.50–59",
+      "prior": 481,
+      "independent_common_spec": 481,
+      "match": true
+    },
+    {
+      "metric": "table2.category.anchor_age_group.60–69",
+      "prior": 572,
+      "independent_common_spec": 572,
+      "match": true
+    },
+    {
+      "metric": "table2.category.anchor_age_group.70–79",
+      "prior": 549,
+      "independent_common_spec": 549,
+      "match": true
+    },
+    {
+      "metric": "table2.category.anchor_age_group.≥80",
+      "prior": 564,
+      "independent_common_spec": 564,
+      "match": true
+    },
+    {
+      "metric": "table2.category.anchor_year_group.2008 - 2010",
+      "prior": 1071,
+      "independent_common_spec": 1071,
+      "match": true
+    },
+    {
+      "metric": "table2.category.anchor_year_group.2011 - 2013",
+      "prior": 565,
+      "independent_common_spec": 565,
+      "match": true
+    },
+    {
+      "metric": "table2.category.anchor_year_group.2014 - 2016",
+      "prior": 474,
+      "independent_common_spec": 474,
+      "match": true
+    },
+    {
+      "metric": "table2.category.anchor_year_group.2017 - 2019",
+      "prior": 459,
+      "independent_common_spec": 459,
+      "match": true
+    },
+    {
+      "metric": "table2.category.baseline_device.HFNC",
+      "prior": 512,
+      "independent_common_spec": 512,
+      "match": true
+    },
+    {
+      "metric": "table2.category.baseline_device.NIV",
+      "prior": 80,
+      "independent_common_spec": 80,
+      "match": true
+    },
+    {
+      "metric": "table2.category.baseline_device.NRB",
+      "prior": 1977,
+      "independent_common_spec": 1977,
+      "match": true
+    },
+    {
+      "metric": "table2.category.first_event.120h censored",
+      "prior": 243,
+      "independent_common_spec": 243,
+      "match": true
+    },
+    {
+      "metric": "table2.category.first_event.Death",
+      "prior": 130,
+      "independent_common_spec": 130,
+      "match": true
+    },
+    {
+      "metric": "table2.category.first_event.ICU discharge",
+      "prior": 1503,
+      "independent_common_spec": 1503,
+      "match": true
+    },
+    {
+      "metric": "table2.category.first_event.IMV",
+      "prior": 693,
+      "independent_common_spec": 693,
+      "match": true
+    },
+    {
+      "metric": "table2.category.icu_group.Cardiac",
+      "prior": 606,
+      "independent_common_spec": 606,
+      "match": true
+    },
+    {
+      "metric": "table2.category.icu_group.Medical-surgical",
+      "prior": 1609,
+      "independent_common_spec": 1609,
+      "match": true
+    },
+    {
+      "metric": "table2.category.icu_group.Neuro-trauma",
+      "prior": 354,
+      "independent_common_spec": 354,
+      "match": true
+    },
+    {
+      "metric": "table2.category.race_author_exact.Asian",
+      "prior": 34,
+      "independent_common_spec": 34,
+      "match": true
+    },
+    {
+      "metric": "table2.category.race_author_exact.Black",
+      "prior": 218,
+      "independent_common_spec": 218,
+      "match": true
+    },
+    {
+      "metric": "table2.category.race_author_exact.Other",
+      "prior": 84,
+      "independent_common_spec": 84,
+      "match": true
+    },
+    {
+      "metric": "table2.category.race_author_exact.Unknown",
+      "prior": 483,
+      "independent_common_spec": 483,
+      "match": true
+    },
+    {
+      "metric": "table2.category.race_author_exact.White",
+      "prior": 1750,
+      "independent_common_spec": 1750,
+      "match": true
+    },
+    {
+      "metric": "table2.category.race_extended.Asian",
+      "prior": 75,
+      "independent_common_spec": 75,
+      "match": true
+    },
+    {
+      "metric": "table2.category.race_extended.Black",
+      "prior": 249,
+      "independent_common_spec": 249,
+      "match": true
+    },
+    {
+      "metric": "table2.category.race_extended.Hispanic",
+      "prior": 94,
+      "independent_common_spec": 94,
+      "match": true
+    },
+    {
+      "metric": "table2.category.race_extended.Other",
+      "prior": 105,
+      "independent_common_spec": 105,
+      "match": true
+    },
+    {
+      "metric": "table2.category.race_extended.Unknown",
+      "prior": 210,
+      "independent_common_spec": 210,
+      "match": true
+    },
+    {
+      "metric": "table2.category.race_extended.White",
+      "prior": 1836,
+      "independent_common_spec": 1836,
+      "match": true
+    },
+    {
+      "metric": "table2.category.sex.F",
+      "prior": 1112,
+      "independent_common_spec": 1112,
+      "match": true
+    },
+    {
+      "metric": "table2.category.sex.M",
+      "prior": 1457,
+      "independent_common_spec": 1457,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.admission_age.denominator",
+      "prior": 2569,
+      "independent_common_spec": 2569,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.admission_age.observed_n",
+      "prior": 2569,
+      "independent_common_spec": 2569,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.admission_age.missing_n",
+      "prior": 0,
+      "independent_common_spec": 0,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.admission_age.q1",
+      "prior": 57.30936300072585,
+      "independent_common_spec": 57.30936300072585,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.admission_age.median",
+      "prior": 68.83688425147649,
+      "independent_common_spec": 68.83688425147649,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.admission_age.q3",
+      "prior": 80.11435340586972,
+      "independent_common_spec": 80.11435340586972,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.fio2_pct.denominator",
+      "prior": 2569,
+      "independent_common_spec": 2569,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.fio2_pct.observed_n",
+      "prior": 2569,
+      "independent_common_spec": 2569,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.fio2_pct.missing_n",
+      "prior": 0,
+      "independent_common_spec": 0,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.fio2_pct.q1",
+      "prior": 60,
+      "independent_common_spec": 60.0,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.fio2_pct.median",
+      "prior": 66,
+      "independent_common_spec": 66.0,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.fio2_pct.q3",
+      "prior": 100,
+      "independent_common_spec": 100.0,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.resp_rate.denominator",
+      "prior": 2569,
+      "independent_common_spec": 2569,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.resp_rate.observed_n",
+      "prior": 2206,
+      "independent_common_spec": 2206,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.resp_rate.missing_n",
+      "prior": 363,
+      "independent_common_spec": 363,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.resp_rate.q1",
+      "prior": 19,
+      "independent_common_spec": 19.0,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.resp_rate.median",
+      "prior": 23,
+      "independent_common_spec": 23.0,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.resp_rate.q3",
+      "prior": 27,
+      "independent_common_spec": 27.0,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.spo2_pct.denominator",
+      "prior": 2569,
+      "independent_common_spec": 2569,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.spo2_pct.observed_n",
+      "prior": 2191,
+      "independent_common_spec": 2191,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.spo2_pct.missing_n",
+      "prior": 378,
+      "independent_common_spec": 378,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.spo2_pct.q1",
+      "prior": 93,
+      "independent_common_spec": 93.0,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.spo2_pct.median",
+      "prior": 96,
+      "independent_common_spec": 96.0,
+      "match": true
+    },
+    {
+      "metric": "table2.continuous.spo2_pct.q3",
+      "prior": 99,
+      "independent_common_spec": 99.0,
+      "match": true
+    },
+    {
+      "metric": "table2.binary.chf",
+      "prior": 1026,
+      "independent_common_spec": 1026,
+      "match": true
+    },
+    {
+      "metric": "table2.binary.copd",
+      "prior": 483,
+      "independent_common_spec": 483,
+      "match": true
+    },
+    {
+      "metric": "table2.binary.enrollment_flow_estimate",
+      "prior": 1365,
+      "independent_common_spec": 1365,
+      "match": true
+    },
+    {
+      "metric": "table2.binary.hfnc_ever",
+      "prior": 700,
+      "independent_common_spec": 700,
+      "match": true
+    },
+    {
+      "metric": "table2.death28_missing",
+      "prior": 1,
+      "independent_common_spec": 1,
+      "match": true
+    },
+    {
+      "metric": "table2.binary.hosp_death28_icu_origin",
+      "prior": 497,
+      "independent_common_spec": 497,
+      "match": true
+    },
+    {
+      "metric": "table2.binary.niv_ever",
+      "prior": 272,
+      "independent_common_spec": 272,
+      "match": true
+    },
+    {
+      "metric": "table2.binary.no_code_status_documented",
+      "prior": 1362,
+      "independent_common_spec": 1362,
+      "match": true
+    },
+    {
+      "metric": "table2.binary.nrb_ever",
+      "prior": 2027,
+      "independent_common_spec": 2027,
+      "match": true
+    },
+    {
+      "metric": "table2.negative_death_time",
+      "prior": 1,
+      "independent_common_spec": 1,
+      "match": true
+    },
+    {
+      "metric": "chronology_sensitivity.cohort_n",
+      "prior": 2568,
+      "independent_common_spec": 2568,
+      "match": true
+    },
+    {
+      "metric": "chronology_sensitivity.hosp_death28_n",
+      "prior": 497,
+      "independent_common_spec": 497,
+      "match": true
+    },
+    {
+      "metric": "chronology_sensitivity.threshold_n",
+      "prior": 176,
+      "independent_common_spec": 176,
+      "match": true
+    },
+    {
+      "metric": "chronology_sensitivity.imv_3h_n",
+      "prior": 41,
+      "independent_common_spec": 41,
+      "match": true
+    },
+    {
+      "metric": "code_status.aggregate_value_counts",
+      "prior": true,
+      "independent_common_spec": true,
+      "match": true
+    }
+  ],
+  "frozen_file_hashes_verified": 20,
+  "prior_artifacts_unchanged": true,
+  "source_phase1": {
+    "cohort": 2707,
+    "pf80": 186,
+    "imv_3h": 43,
+    "pct": 23.1183,
+    "method_relation": "different independently frozen definitions; preserved without retuning"
+  },
+  "blinding": "No prior SQL or output counts/percentages/anomaly counts supplied before either freeze; second phase supplied prior definitions only. Filesystem shared with instructed reading limits, not OS-enforced isolation.",
+  "limits": [
+    "aggregate agreement does not prove clinical validity or optimal threshold",
+    "no patient-level set comparison performed or exported",
+    "entire author-only sensitivity and coverage JSON not independently compared",
+    "full Table2 per-device continuous distributions not independently compared",
+    "AI independent implementation, not a second human group member"
+  ],
+  "scope": "single-threshold classroom adaptation, not full paper reproduction"
+}

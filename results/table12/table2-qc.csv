@@ -1,0 +1,12 @@
+﻿check_name,failures
+baseline_device_absent_from_ever,0
+baseline_from_future_or_outside_window,0
+category_partition_mismatch,0
+cohort_changed,0
+continuous_observed_missing_mismatch,0
+duplicate_person,0
+invalid_baseline_values,0
+inverted_quartiles,0
+null_first_event,0
+primary_imv_changed,0
+primary_threshold_changed,0

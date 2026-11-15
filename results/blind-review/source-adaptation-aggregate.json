@@ -1,0 +1,554 @@
+{
+  "aggregate_flow": [
+    {
+      "result": {
+        "adult": 73181,
+        "no_limit": 60715,
+        "no_trach": 59927,
+        "all_stays": 73181,
+        "nonsurgical": 63386,
+        "no_prior_imv": 56644,
+        "valid_outcome": 62687,
+        "eligible_stays": 2898,
+        "unique_patients": 2707
+      }
+    }
+  ],
+  "aggregate_pf80": [
+    {
+      "result": {
+        "met": 186,
+        "imv_3h": 43,
+        "pct_3h": 23.1183,
+        "imv_strict3h": 43,
+        "short_observation": 2
+      }
+    }
+  ],
+  "aggregate_pf80_strata": [
+    {
+      "baseline_device": 3,
+      "met": 129,
+      "imv_3h": 34,
+      "pct": "26.3566"
+    },
+    {
+      "baseline_device": 4,
+      "met": 50,
+      "imv_3h": 8,
+      "pct": "16.0000"
+    },
+    {
+      "baseline_device": 5,
+      "met": 7,
+      "imv_3h": 1,
+      "pct": "14.2857"
+    }
+  ],
+  "aggregate_sensitivity": [
+    {
+      "scenario": "no_current_device_requirement",
+      "met": 259,
+      "imv_3h": 62
+    }
+  ],
+  "aggregate_table2_categorical": [
+    {
+      "variable": "age_group",
+      "category": "18-39",
+      "n": 171,
+      "pct": "6.3170"
+    },
+    {
+      "variable": "age_group",
+      "category": "40-49",
+      "n": 173,
+      "pct": "6.3908"
+    },
+    {
+      "variable": "age_group",
+      "category": "50-59",
+      "n": 451,
+      "pct": "16.6605"
+    },
+    {
+      "variable": "age_group",
+      "category": "60-69",
+      "n": 596,
+      "pct": "22.0170"
+    },
+    {
+      "variable": "age_group",
+      "category": "70-79",
+      "n": 614,
+      "pct": "22.6819"
+    },
+    {
+      "variable": "age_group",
+      "category": "80+",
+      "n": 702,
+      "pct": "25.9328"
+    },
+    {
+      "variable": "baseline_device",
+      "category": "3",
+      "n": 2087,
+      "pct": "77.0964"
+    },
+    {
+      "variable": "baseline_device",
+      "category": "4",
+      "n": 539,
+      "pct": "19.9113"
+    },
+    {
+      "variable": "baseline_device",
+      "category": "5",
+      "n": 81,
+      "pct": "2.9922"
+    },
+    {
+      "variable": "chf_author",
+      "category": "false",
+      "n": 1623,
+      "pct": "59.9557"
+    },
+    {
+      "variable": "chf_author",
+      "category": "true",
+      "n": 1084,
+      "pct": "40.0443"
+    },
+    {
+      "variable": "chf_classroom",
+      "category": "false",
+      "n": 1598,
+      "pct": "59.0321"
+    },
+    {
+      "variable": "chf_classroom",
+      "category": "true",
+      "n": 1109,
+      "pct": "40.9679"
+    },
+    {
+      "variable": "copd_author",
+      "category": "false",
+      "n": 2192,
+      "pct": "80.9752"
+    },
+    {
+      "variable": "copd_author",
+      "category": "true",
+      "n": 515,
+      "pct": "19.0248"
+    },
+    {
+      "variable": "copd_classroom",
+      "category": "false",
+      "n": 2389,
+      "pct": "88.2527"
+    },
+    {
+      "variable": "copd_classroom",
+      "category": "true",
+      "n": 318,
+      "pct": "11.7473"
+    },
+    {
+      "variable": "death28_dod",
+      "category": "false",
+      "n": 1986,
+      "pct": "73.3653"
+    },
+    {
+      "variable": "death28_dod",
+      "category": "true",
+      "n": 721,
+      "pct": "26.6347"
+    },
+    {
+      "variable": "death28_hospital",
+      "category": "false",
+      "n": 2146,
+      "pct": "79.2760"
+    },
+    {
+      "variable": "death28_hospital",
+      "category": "true",
+      "n": 561,
+      "pct": "20.7240"
+    },
+    {
+      "variable": "event120",
+      "category": "Administrative120h",
+      "n": 267,
+      "pct": "9.8633"
+    },
+    {
+      "variable": "event120",
+      "category": "Death",
+      "n": 148,
+      "pct": "5.4673"
+    },
+    {
+      "variable": "event120",
+      "category": "ICU discharge",
+      "n": 1536,
+      "pct": "56.7418"
+    },
+    {
+      "variable": "event120",
+      "category": "IMV",
+      "n": 756,
+      "pct": "27.9276"
+    },
+    {
+      "variable": "fio2_source",
+      "category": "NRB_flow_estimate",
+      "n": 1428,
+      "pct": "52.7521"
+    },
+    {
+      "variable": "fio2_source",
+      "category": "observed",
+      "n": 1279,
+      "pct": "47.2479"
+    },
+    {
+      "variable": "icu",
+      "category": "Cardiac",
+      "n": 646,
+      "pct": "23.8641"
+    },
+    {
+      "variable": "icu",
+      "category": "Medical-surgical",
+      "n": 1694,
+      "pct": "62.5785"
+    },
+    {
+      "variable": "icu",
+      "category": "Neuro-trauma",
+      "n": 367,
+      "pct": "13.5574"
+    },
+    {
+      "variable": "race",
+      "category": "Asian",
+      "n": 78,
+      "pct": "2.8814"
+    },
+    {
+      "variable": "race",
+      "category": "Black",
+      "n": 260,
+      "pct": "9.6047"
+    },
+    {
+      "variable": "race",
+      "category": "Hispanic",
+      "n": 95,
+      "pct": "3.5094"
+    },
+    {
+      "variable": "race",
+      "category": "Other",
+      "n": 106,
+      "pct": "3.9158"
+    },
+    {
+      "variable": "race",
+      "category": "Unknown",
+      "n": 223,
+      "pct": "8.2379"
+    },
+    {
+      "variable": "race",
+      "category": "White",
+      "n": 1945,
+      "pct": "71.8508"
+    },
+    {
+      "variable": "sex",
+      "category": "F",
+      "n": 1179,
+      "pct": "43.5537"
+    },
+    {
+      "variable": "sex",
+      "category": "M",
+      "n": 1528,
+      "pct": "56.4463"
+    },
+    {
+      "variable": "year_anchor_group",
+      "category": "2008 - 2010",
+      "n": 1124,
+      "pct": "41.5220"
+    },
+    {
+      "variable": "year_anchor_group",
+      "category": "2011 - 2013",
+      "n": 598,
+      "pct": "22.0909"
+    },
+    {
+      "variable": "year_anchor_group",
+      "category": "2014 - 2016",
+      "n": 508,
+      "pct": "18.7662"
+    },
+    {
+      "variable": "year_anchor_group",
+      "category": "2017 - 2019",
+      "n": 477,
+      "pct": "17.6210"
+    }
+  ],
+  "aggregate_table2_continuous": [
+    {
+      "variable": "age",
+      "total": 2707,
+      "valid_n": 2707,
+      "quartiles": [
+        57.0,
+        69.0,
+        80.0
+      ]
+    },
+    {
+      "variable": "FiO2",
+      "total": 2707,
+      "valid_n": 2707,
+      "quartiles": [
+        60.0,
+        66.0,
+        100.0
+      ]
+    },
+    {
+      "variable": "RR",
+      "total": 2707,
+      "valid_n": 2319,
+      "quartiles": [
+        19.0,
+        23.0,
+        27.0
+      ]
+    },
+    {
+      "variable": "SpO2",
+      "total": 2707,
+      "valid_n": 2300,
+      "quartiles": [
+        93.0,
+        96.0,
+        99.0
+      ]
+    }
+  ],
+  "aggregate_ever_devices": [
+    {
+      "device_code": 3,
+      "n": 2140
+    },
+    {
+      "device_code": 4,
+      "n": 741
+    },
+    {
+      "device_code": 5,
+      "n": 282
+    }
+  ],
+  "aggregate_code_audit": [
+    {
+      "itemid": 223758,
+      "value": "Comfort measures only",
+      "prohibits_imv": true,
+      "records": 952,
+      "stays": 776
+    },
+    {
+      "itemid": 223758,
+      "value": "DNI (do not intubate)",
+      "prohibits_imv": true,
+      "records": 138,
+      "stays": 75
+    },
+    {
+      "itemid": 223758,
+      "value": "DNR (do not resuscitate)",
+      "prohibits_imv": false,
+      "records": 2403,
+      "stays": 1414
+    },
+    {
+      "itemid": 223758,
+      "value": "DNR / DNI",
+      "prohibits_imv": true,
+      "records": 4574,
+      "stays": 2593
+    },
+    {
+      "itemid": 223758,
+      "value": "Full code",
+      "prohibits_imv": false,
+      "records": 63074,
+      "stays": 31331
+    },
+    {
+      "itemid": 228687,
+      "value": "Comfort measures only",
+      "prohibits_imv": true,
+      "records": 17,
+      "stays": 8
+    },
+    {
+      "itemid": 228687,
+      "value": "DNAR (Do Not Attempt Resuscitation)  [DNR]",
+      "prohibits_imv": false,
+      "records": 236,
+      "stays": 73
+    },
+    {
+      "itemid": 228687,
+      "value": "DNAR (Do Not Attempt Resuscitation) [DNR] / DNI",
+      "prohibits_imv": true,
+      "records": 248,
+      "stays": 109
+    },
+    {
+      "itemid": 228687,
+      "value": "DNI (do not intubate)",
+      "prohibits_imv": true,
+      "records": 10,
+      "stays": 5
+    },
+    {
+      "itemid": 228687,
+      "value": "Full code",
+      "prohibits_imv": false,
+      "records": 3680,
+      "stays": 1214
+    }
+  ],
+  "aggregate_qc": [
+    {
+      "result": {
+        "pf80_rows": 186,
+        "pf80_stays": 186,
+        "cohort_rows": 2707,
+        "dod_missing": 1224,
+        "bg_after_imv": 7584,
+        "cohort_stays": 2707,
+        "null_outcome": 0,
+        "pf_before_t0": 0,
+        "imv_before_pf": 0,
+        "bg_pf_mismatch": 0,
+        "imv_death_ties": 0,
+        "cohort_patients": 2707,
+        "pf_after_censor": 0,
+        "bad_baseline_fio2": 0,
+        "death_discharge_ties": 0,
+        "baseline_future_vitals": 0,
+        "od_duplicate_timepoints": 0,
+        "fio2_duplicate_timepoints": 0
+      }
+    }
+  ],
+  "aggregate_bg_quality": [
+    {
+      "specimen": "ART.",
+      "records": 9222,
+      "in_risk": 2614,
+      "missing_pf": 1531,
+      "bad_or_missing_fio2": 1533,
+      "low_pf_risk": 369,
+      "low_pf_device_risk": 271
+    },
+    {
+      "specimen": "CENTRAL VENOUS.",
+      "records": 240,
+      "in_risk": 92,
+      "missing_pf": 55,
+      "bad_or_missing_fio2": 55,
+      "low_pf_risk": 27,
+      "low_pf_device_risk": 13
+    },
+    {
+      "specimen": "MIX.",
+      "records": 243,
+      "in_risk": 165,
+      "missing_pf": 95,
+      "bad_or_missing_fio2": 95,
+      "low_pf_risk": 65,
+      "low_pf_device_risk": 43
+    },
+    {
+      "specimen": "NULL",
+      "records": 90,
+      "in_risk": 48,
+      "missing_pf": 33,
+      "bad_or_missing_fio2": 33,
+      "low_pf_risk": 5,
+      "low_pf_device_risk": 5
+    },
+    {
+      "specimen": "VEN.",
+      "records": 2559,
+      "in_risk": 1851,
+      "missing_pf": 896,
+      "bad_or_missing_fio2": 896,
+      "low_pf_risk": 610,
+      "low_pf_device_risk": 489
+    }
+  ],
+  "aggregate_imv_timing": [
+    {
+      "pf80": 186,
+      "same_time_imv": 0,
+      "exact_three_hours": 0,
+      "positive_short_observation": 0
+    }
+  ],
+  "aggregate_entry_availability": [
+    {
+      "device_code": 3,
+      "device_stays": 2882,
+      "samepoint_observed_fio2_stays": 1011,
+      "samepoint_fio2_ge40_stays": 1008,
+      "flow_fallback_stays": 1961
+    },
+    {
+      "device_code": 4,
+      "device_stays": 997,
+      "samepoint_observed_fio2_stays": 949,
+      "samepoint_fio2_ge40_stays": 928,
+      "flow_fallback_stays": 0
+    },
+    {
+      "device_code": 5,
+      "device_stays": 2405,
+      "samepoint_observed_fio2_stays": 230,
+      "samepoint_fio2_ge40_stays": 192,
+      "flow_fallback_stays": 0
+    }
+  ],
+  "aggregate_additional_qc": [
+    {
+      "result": {
+        "negative_icu_los": 0,
+        "missing_dischtime": 0,
+        "death_flag_no_time": 8,
+        "cohort_no_code_status": 1663,
+        "negative_hospital_los": 62,
+        "bg_unknown_current_device": 6560,
+        "missing_discharge_location": 637,
+        "arterial_lowpf_outside_device": 98,
+        "survival_flag_with_death_time": 0
+      }
+    }
+  ]
+}

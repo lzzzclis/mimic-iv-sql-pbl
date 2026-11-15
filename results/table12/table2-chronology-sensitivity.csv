@@ -1,0 +1,10 @@
+﻿对照定义,指标,数值
+仅剔除死亡早于ICU入住者,cohort_n,2568
+仅剔除死亡早于ICU入住者,excluded_n,1
+仅剔除死亡早于ICU入住者,120h censored,243
+仅剔除死亡早于ICU入住者,Death,129
+仅剔除死亡早于ICU入住者,ICU discharge,1503
+仅剔除死亡早于ICU入住者,IMV,693
+仅剔除死亡早于ICU入住者,hosp_death28_n,497
+仅剔除死亡早于ICU入住者,threshold_n,176
+仅剔除死亡早于ICU入住者,imv_3h_n,41

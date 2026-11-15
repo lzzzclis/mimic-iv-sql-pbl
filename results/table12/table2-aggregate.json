@@ -1,0 +1,1559 @@
+{
+  "scope": "MIMIC-IV 2.2 Table2 local teaching adaptation; not complete reproduction",
+  "group_sizes": [
+    {
+      "group_name": "HFNC",
+      "n": 512
+    },
+    {
+      "group_name": "NIV",
+      "n": 80
+    },
+    {
+      "group_name": "NRB",
+      "n": 1977
+    },
+    {
+      "group_name": "Overall",
+      "n": 2569
+    }
+  ],
+  "categories": [
+    {
+      "group_name": "HFNC",
+      "variable": "age_group",
+      "category": "18–39",
+      "n": 30,
+      "pct": 5.86
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "age_group",
+      "category": "40–49",
+      "n": 36,
+      "pct": 7.03
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "age_group",
+      "category": "50–59",
+      "n": 79,
+      "pct": 15.43
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "age_group",
+      "category": "60–69",
+      "n": 127,
+      "pct": 24.8
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "age_group",
+      "category": "70–79",
+      "n": 134,
+      "pct": 26.17
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "age_group",
+      "category": "≥80",
+      "n": 106,
+      "pct": 20.7
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "anchor_age_group",
+      "category": "18–39",
+      "n": 38,
+      "pct": 7.42
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "anchor_age_group",
+      "category": "40–49",
+      "n": 40,
+      "pct": 7.81
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "anchor_age_group",
+      "category": "50–59",
+      "n": 105,
+      "pct": 20.51
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "anchor_age_group",
+      "category": "60–69",
+      "n": 126,
+      "pct": 24.61
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "anchor_age_group",
+      "category": "70–79",
+      "n": 116,
+      "pct": 22.66
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "anchor_age_group",
+      "category": "≥80",
+      "n": 87,
+      "pct": 16.99
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "anchor_year_group",
+      "category": "2008 - 2010",
+      "n": 101,
+      "pct": 19.73
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "anchor_year_group",
+      "category": "2011 - 2013",
+      "n": 50,
+      "pct": 9.77
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "anchor_year_group",
+      "category": "2014 - 2016",
+      "n": 113,
+      "pct": 22.07
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "anchor_year_group",
+      "category": "2017 - 2019",
+      "n": 248,
+      "pct": 48.44
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "baseline_device",
+      "category": "HFNC",
+      "n": 512,
+      "pct": 100.0
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "first_event",
+      "category": "120h censored",
+      "n": 89,
+      "pct": 17.38
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "first_event",
+      "category": "Death",
+      "n": 44,
+      "pct": 8.59
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "first_event",
+      "category": "ICU discharge",
+      "n": 238,
+      "pct": 46.48
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "first_event",
+      "category": "IMV",
+      "n": 141,
+      "pct": 27.54
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "icu_group",
+      "category": "Cardiac",
+      "n": 90,
+      "pct": 17.58
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "icu_group",
+      "category": "Medical-surgical",
+      "n": 370,
+      "pct": 72.27
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "icu_group",
+      "category": "Neuro-trauma",
+      "n": 52,
+      "pct": 10.16
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "race_author_exact",
+      "category": "Asian",
+      "n": 5,
+      "pct": 0.98
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "race_author_exact",
+      "category": "Black",
+      "n": 26,
+      "pct": 5.08
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "race_author_exact",
+      "category": "Other",
+      "n": 18,
+      "pct": 3.52
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "race_author_exact",
+      "category": "Unknown",
+      "n": 114,
+      "pct": 22.27
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "race_author_exact",
+      "category": "White",
+      "n": 349,
+      "pct": 68.16
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "race_extended",
+      "category": "Asian",
+      "n": 13,
+      "pct": 2.54
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "race_extended",
+      "category": "Black",
+      "n": 29,
+      "pct": 5.66
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "race_extended",
+      "category": "Hispanic",
+      "n": 17,
+      "pct": 3.32
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "race_extended",
+      "category": "Other",
+      "n": 22,
+      "pct": 4.3
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "race_extended",
+      "category": "Unknown",
+      "n": 57,
+      "pct": 11.13
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "race_extended",
+      "category": "White",
+      "n": 374,
+      "pct": 73.05
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "sex",
+      "category": "F",
+      "n": 215,
+      "pct": 41.99
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "sex",
+      "category": "M",
+      "n": 297,
+      "pct": 58.01
+    },
+    {
+      "group_name": "NIV",
+      "variable": "age_group",
+      "category": "18–39",
+      "n": 6,
+      "pct": 7.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "age_group",
+      "category": "40–49",
+      "n": 4,
+      "pct": 5.0
+    },
+    {
+      "group_name": "NIV",
+      "variable": "age_group",
+      "category": "50–59",
+      "n": 10,
+      "pct": 12.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "age_group",
+      "category": "60–69",
+      "n": 19,
+      "pct": 23.75
+    },
+    {
+      "group_name": "NIV",
+      "variable": "age_group",
+      "category": "70–79",
+      "n": 19,
+      "pct": 23.75
+    },
+    {
+      "group_name": "NIV",
+      "variable": "age_group",
+      "category": "≥80",
+      "n": 22,
+      "pct": 27.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "anchor_age_group",
+      "category": "18–39",
+      "n": 6,
+      "pct": 7.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "anchor_age_group",
+      "category": "40–49",
+      "n": 6,
+      "pct": 7.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "anchor_age_group",
+      "category": "50–59",
+      "n": 12,
+      "pct": 15.0
+    },
+    {
+      "group_name": "NIV",
+      "variable": "anchor_age_group",
+      "category": "60–69",
+      "n": 21,
+      "pct": 26.25
+    },
+    {
+      "group_name": "NIV",
+      "variable": "anchor_age_group",
+      "category": "70–79",
+      "n": 15,
+      "pct": 18.75
+    },
+    {
+      "group_name": "NIV",
+      "variable": "anchor_age_group",
+      "category": "≥80",
+      "n": 20,
+      "pct": 25.0
+    },
+    {
+      "group_name": "NIV",
+      "variable": "anchor_year_group",
+      "category": "2008 - 2010",
+      "n": 30,
+      "pct": 37.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "anchor_year_group",
+      "category": "2011 - 2013",
+      "n": 17,
+      "pct": 21.25
+    },
+    {
+      "group_name": "NIV",
+      "variable": "anchor_year_group",
+      "category": "2014 - 2016",
+      "n": 18,
+      "pct": 22.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "anchor_year_group",
+      "category": "2017 - 2019",
+      "n": 15,
+      "pct": 18.75
+    },
+    {
+      "group_name": "NIV",
+      "variable": "baseline_device",
+      "category": "NIV",
+      "n": 80,
+      "pct": 100.0
+    },
+    {
+      "group_name": "NIV",
+      "variable": "first_event",
+      "category": "120h censored",
+      "n": 4,
+      "pct": 5.0
+    },
+    {
+      "group_name": "NIV",
+      "variable": "first_event",
+      "category": "Death",
+      "n": 2,
+      "pct": 2.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "first_event",
+      "category": "ICU discharge",
+      "n": 50,
+      "pct": 62.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "first_event",
+      "category": "IMV",
+      "n": 24,
+      "pct": 30.0
+    },
+    {
+      "group_name": "NIV",
+      "variable": "icu_group",
+      "category": "Cardiac",
+      "n": 20,
+      "pct": 25.0
+    },
+    {
+      "group_name": "NIV",
+      "variable": "icu_group",
+      "category": "Medical-surgical",
+      "n": 53,
+      "pct": 66.25
+    },
+    {
+      "group_name": "NIV",
+      "variable": "icu_group",
+      "category": "Neuro-trauma",
+      "n": 7,
+      "pct": 8.75
+    },
+    {
+      "group_name": "NIV",
+      "variable": "race_author_exact",
+      "category": "Black",
+      "n": 13,
+      "pct": 16.25
+    },
+    {
+      "group_name": "NIV",
+      "variable": "race_author_exact",
+      "category": "Other",
+      "n": 2,
+      "pct": 2.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "race_author_exact",
+      "category": "Unknown",
+      "n": 10,
+      "pct": 12.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "race_author_exact",
+      "category": "White",
+      "n": 55,
+      "pct": 68.75
+    },
+    {
+      "group_name": "NIV",
+      "variable": "race_extended",
+      "category": "Black",
+      "n": 14,
+      "pct": 17.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "race_extended",
+      "category": "Hispanic",
+      "n": 2,
+      "pct": 2.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "race_extended",
+      "category": "Other",
+      "n": 2,
+      "pct": 2.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "race_extended",
+      "category": "Unknown",
+      "n": 4,
+      "pct": 5.0
+    },
+    {
+      "group_name": "NIV",
+      "variable": "race_extended",
+      "category": "White",
+      "n": 58,
+      "pct": 72.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "sex",
+      "category": "F",
+      "n": 40,
+      "pct": 50.0
+    },
+    {
+      "group_name": "NIV",
+      "variable": "sex",
+      "category": "M",
+      "n": 40,
+      "pct": 50.0
+    },
+    {
+      "group_name": "NRB",
+      "variable": "age_group",
+      "category": "18–39",
+      "n": 138,
+      "pct": 6.98
+    },
+    {
+      "group_name": "NRB",
+      "variable": "age_group",
+      "category": "40–49",
+      "n": 131,
+      "pct": 6.63
+    },
+    {
+      "group_name": "NRB",
+      "variable": "age_group",
+      "category": "50–59",
+      "n": 346,
+      "pct": 17.5
+    },
+    {
+      "group_name": "NRB",
+      "variable": "age_group",
+      "category": "60–69",
+      "n": 421,
+      "pct": 21.29
+    },
+    {
+      "group_name": "NRB",
+      "variable": "age_group",
+      "category": "70–79",
+      "n": 419,
+      "pct": 21.19
+    },
+    {
+      "group_name": "NRB",
+      "variable": "age_group",
+      "category": "≥80",
+      "n": 522,
+      "pct": 26.4
+    },
+    {
+      "group_name": "NRB",
+      "variable": "anchor_age_group",
+      "category": "18–39",
+      "n": 147,
+      "pct": 7.44
+    },
+    {
+      "group_name": "NRB",
+      "variable": "anchor_age_group",
+      "category": "40–49",
+      "n": 166,
+      "pct": 8.4
+    },
+    {
+      "group_name": "NRB",
+      "variable": "anchor_age_group",
+      "category": "50–59",
+      "n": 364,
+      "pct": 18.41
+    },
+    {
+      "group_name": "NRB",
+      "variable": "anchor_age_group",
+      "category": "60–69",
+      "n": 425,
+      "pct": 21.5
+    },
+    {
+      "group_name": "NRB",
+      "variable": "anchor_age_group",
+      "category": "70–79",
+      "n": 418,
+      "pct": 21.14
+    },
+    {
+      "group_name": "NRB",
+      "variable": "anchor_age_group",
+      "category": "≥80",
+      "n": 457,
+      "pct": 23.12
+    },
+    {
+      "group_name": "NRB",
+      "variable": "anchor_year_group",
+      "category": "2008 - 2010",
+      "n": 940,
+      "pct": 47.55
+    },
+    {
+      "group_name": "NRB",
+      "variable": "anchor_year_group",
+      "category": "2011 - 2013",
+      "n": 498,
+      "pct": 25.19
+    },
+    {
+      "group_name": "NRB",
+      "variable": "anchor_year_group",
+      "category": "2014 - 2016",
+      "n": 343,
+      "pct": 17.35
+    },
+    {
+      "group_name": "NRB",
+      "variable": "anchor_year_group",
+      "category": "2017 - 2019",
+      "n": 196,
+      "pct": 9.91
+    },
+    {
+      "group_name": "NRB",
+      "variable": "baseline_device",
+      "category": "NRB",
+      "n": 1977,
+      "pct": 100.0
+    },
+    {
+      "group_name": "NRB",
+      "variable": "first_event",
+      "category": "120h censored",
+      "n": 150,
+      "pct": 7.59
+    },
+    {
+      "group_name": "NRB",
+      "variable": "first_event",
+      "category": "Death",
+      "n": 84,
+      "pct": 4.25
+    },
+    {
+      "group_name": "NRB",
+      "variable": "first_event",
+      "category": "ICU discharge",
+      "n": 1215,
+      "pct": 61.46
+    },
+    {
+      "group_name": "NRB",
+      "variable": "first_event",
+      "category": "IMV",
+      "n": 528,
+      "pct": 26.71
+    },
+    {
+      "group_name": "NRB",
+      "variable": "icu_group",
+      "category": "Cardiac",
+      "n": 496,
+      "pct": 25.09
+    },
+    {
+      "group_name": "NRB",
+      "variable": "icu_group",
+      "category": "Medical-surgical",
+      "n": 1186,
+      "pct": 59.99
+    },
+    {
+      "group_name": "NRB",
+      "variable": "icu_group",
+      "category": "Neuro-trauma",
+      "n": 295,
+      "pct": 14.92
+    },
+    {
+      "group_name": "NRB",
+      "variable": "race_author_exact",
+      "category": "Asian",
+      "n": 29,
+      "pct": 1.47
+    },
+    {
+      "group_name": "NRB",
+      "variable": "race_author_exact",
+      "category": "Black",
+      "n": 179,
+      "pct": 9.05
+    },
+    {
+      "group_name": "NRB",
+      "variable": "race_author_exact",
+      "category": "Other",
+      "n": 64,
+      "pct": 3.24
+    },
+    {
+      "group_name": "NRB",
+      "variable": "race_author_exact",
+      "category": "Unknown",
+      "n": 359,
+      "pct": 18.16
+    },
+    {
+      "group_name": "NRB",
+      "variable": "race_author_exact",
+      "category": "White",
+      "n": 1346,
+      "pct": 68.08
+    },
+    {
+      "group_name": "NRB",
+      "variable": "race_extended",
+      "category": "Asian",
+      "n": 62,
+      "pct": 3.14
+    },
+    {
+      "group_name": "NRB",
+      "variable": "race_extended",
+      "category": "Black",
+      "n": 206,
+      "pct": 10.42
+    },
+    {
+      "group_name": "NRB",
+      "variable": "race_extended",
+      "category": "Hispanic",
+      "n": 75,
+      "pct": 3.79
+    },
+    {
+      "group_name": "NRB",
+      "variable": "race_extended",
+      "category": "Other",
+      "n": 81,
+      "pct": 4.1
+    },
+    {
+      "group_name": "NRB",
+      "variable": "race_extended",
+      "category": "Unknown",
+      "n": 149,
+      "pct": 7.54
+    },
+    {
+      "group_name": "NRB",
+      "variable": "race_extended",
+      "category": "White",
+      "n": 1404,
+      "pct": 71.02
+    },
+    {
+      "group_name": "NRB",
+      "variable": "sex",
+      "category": "F",
+      "n": 857,
+      "pct": 43.35
+    },
+    {
+      "group_name": "NRB",
+      "variable": "sex",
+      "category": "M",
+      "n": 1120,
+      "pct": 56.65
+    },
+    {
+      "group_name": "Overall",
+      "variable": "age_group",
+      "category": "18–39",
+      "n": 174,
+      "pct": 6.77
+    },
+    {
+      "group_name": "Overall",
+      "variable": "age_group",
+      "category": "40–49",
+      "n": 171,
+      "pct": 6.66
+    },
+    {
+      "group_name": "Overall",
+      "variable": "age_group",
+      "category": "50–59",
+      "n": 435,
+      "pct": 16.93
+    },
+    {
+      "group_name": "Overall",
+      "variable": "age_group",
+      "category": "60–69",
+      "n": 567,
+      "pct": 22.07
+    },
+    {
+      "group_name": "Overall",
+      "variable": "age_group",
+      "category": "70–79",
+      "n": 572,
+      "pct": 22.27
+    },
+    {
+      "group_name": "Overall",
+      "variable": "age_group",
+      "category": "≥80",
+      "n": 650,
+      "pct": 25.3
+    },
+    {
+      "group_name": "Overall",
+      "variable": "anchor_age_group",
+      "category": "18–39",
+      "n": 191,
+      "pct": 7.43
+    },
+    {
+      "group_name": "Overall",
+      "variable": "anchor_age_group",
+      "category": "40–49",
+      "n": 212,
+      "pct": 8.25
+    },
+    {
+      "group_name": "Overall",
+      "variable": "anchor_age_group",
+      "category": "50–59",
+      "n": 481,
+      "pct": 18.72
+    },
+    {
+      "group_name": "Overall",
+      "variable": "anchor_age_group",
+      "category": "60–69",
+      "n": 572,
+      "pct": 22.27
+    },
+    {
+      "group_name": "Overall",
+      "variable": "anchor_age_group",
+      "category": "70–79",
+      "n": 549,
+      "pct": 21.37
+    },
+    {
+      "group_name": "Overall",
+      "variable": "anchor_age_group",
+      "category": "≥80",
+      "n": 564,
+      "pct": 21.95
+    },
+    {
+      "group_name": "Overall",
+      "variable": "anchor_year_group",
+      "category": "2008 - 2010",
+      "n": 1071,
+      "pct": 41.69
+    },
+    {
+      "group_name": "Overall",
+      "variable": "anchor_year_group",
+      "category": "2011 - 2013",
+      "n": 565,
+      "pct": 21.99
+    },
+    {
+      "group_name": "Overall",
+      "variable": "anchor_year_group",
+      "category": "2014 - 2016",
+      "n": 474,
+      "pct": 18.45
+    },
+    {
+      "group_name": "Overall",
+      "variable": "anchor_year_group",
+      "category": "2017 - 2019",
+      "n": 459,
+      "pct": 17.87
+    },
+    {
+      "group_name": "Overall",
+      "variable": "baseline_device",
+      "category": "HFNC",
+      "n": 512,
+      "pct": 19.93
+    },
+    {
+      "group_name": "Overall",
+      "variable": "baseline_device",
+      "category": "NIV",
+      "n": 80,
+      "pct": 3.11
+    },
+    {
+      "group_name": "Overall",
+      "variable": "baseline_device",
+      "category": "NRB",
+      "n": 1977,
+      "pct": 76.96
+    },
+    {
+      "group_name": "Overall",
+      "variable": "first_event",
+      "category": "120h censored",
+      "n": 243,
+      "pct": 9.46
+    },
+    {
+      "group_name": "Overall",
+      "variable": "first_event",
+      "category": "Death",
+      "n": 130,
+      "pct": 5.06
+    },
+    {
+      "group_name": "Overall",
+      "variable": "first_event",
+      "category": "ICU discharge",
+      "n": 1503,
+      "pct": 58.51
+    },
+    {
+      "group_name": "Overall",
+      "variable": "first_event",
+      "category": "IMV",
+      "n": 693,
+      "pct": 26.98
+    },
+    {
+      "group_name": "Overall",
+      "variable": "icu_group",
+      "category": "Cardiac",
+      "n": 606,
+      "pct": 23.59
+    },
+    {
+      "group_name": "Overall",
+      "variable": "icu_group",
+      "category": "Medical-surgical",
+      "n": 1609,
+      "pct": 62.63
+    },
+    {
+      "group_name": "Overall",
+      "variable": "icu_group",
+      "category": "Neuro-trauma",
+      "n": 354,
+      "pct": 13.78
+    },
+    {
+      "group_name": "Overall",
+      "variable": "race_author_exact",
+      "category": "Asian",
+      "n": 34,
+      "pct": 1.32
+    },
+    {
+      "group_name": "Overall",
+      "variable": "race_author_exact",
+      "category": "Black",
+      "n": 218,
+      "pct": 8.49
+    },
+    {
+      "group_name": "Overall",
+      "variable": "race_author_exact",
+      "category": "Other",
+      "n": 84,
+      "pct": 3.27
+    },
+    {
+      "group_name": "Overall",
+      "variable": "race_author_exact",
+      "category": "Unknown",
+      "n": 483,
+      "pct": 18.8
+    },
+    {
+      "group_name": "Overall",
+      "variable": "race_author_exact",
+      "category": "White",
+      "n": 1750,
+      "pct": 68.12
+    },
+    {
+      "group_name": "Overall",
+      "variable": "race_extended",
+      "category": "Asian",
+      "n": 75,
+      "pct": 2.92
+    },
+    {
+      "group_name": "Overall",
+      "variable": "race_extended",
+      "category": "Black",
+      "n": 249,
+      "pct": 9.69
+    },
+    {
+      "group_name": "Overall",
+      "variable": "race_extended",
+      "category": "Hispanic",
+      "n": 94,
+      "pct": 3.66
+    },
+    {
+      "group_name": "Overall",
+      "variable": "race_extended",
+      "category": "Other",
+      "n": 105,
+      "pct": 4.09
+    },
+    {
+      "group_name": "Overall",
+      "variable": "race_extended",
+      "category": "Unknown",
+      "n": 210,
+      "pct": 8.17
+    },
+    {
+      "group_name": "Overall",
+      "variable": "race_extended",
+      "category": "White",
+      "n": 1836,
+      "pct": 71.47
+    },
+    {
+      "group_name": "Overall",
+      "variable": "sex",
+      "category": "F",
+      "n": 1112,
+      "pct": 43.29
+    },
+    {
+      "group_name": "Overall",
+      "variable": "sex",
+      "category": "M",
+      "n": 1457,
+      "pct": 56.71
+    }
+  ],
+  "continuous": [
+    {
+      "group_name": "HFNC",
+      "variable": "admission_age",
+      "denominator": 512,
+      "observed_n": 512,
+      "missing_n": 0,
+      "median": 68.07035582648703,
+      "q1": 58.17858545764786,
+      "q3": 78.48350057024597
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "fio2_pct",
+      "denominator": 512,
+      "observed_n": 512,
+      "missing_n": 0,
+      "median": 70,
+      "q1": 60,
+      "q3": 100
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "resp_rate",
+      "denominator": 512,
+      "observed_n": 458,
+      "missing_n": 54,
+      "median": 23,
+      "q1": 20,
+      "q3": 28
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "spo2_pct",
+      "denominator": 512,
+      "observed_n": 457,
+      "missing_n": 55,
+      "median": 95,
+      "q1": 92,
+      "q3": 97
+    },
+    {
+      "group_name": "NIV",
+      "variable": "admission_age",
+      "denominator": 80,
+      "observed_n": 80,
+      "missing_n": 0,
+      "median": 71.48154355346745,
+      "q1": 60.28000689345085,
+      "q3": 81.18053078126587
+    },
+    {
+      "group_name": "NIV",
+      "variable": "fio2_pct",
+      "denominator": 80,
+      "observed_n": 80,
+      "missing_n": 0,
+      "median": 50,
+      "q1": 40,
+      "q3": 100
+    },
+    {
+      "group_name": "NIV",
+      "variable": "resp_rate",
+      "denominator": 80,
+      "observed_n": 74,
+      "missing_n": 6,
+      "median": 23,
+      "q1": 18,
+      "q3": 26.75
+    },
+    {
+      "group_name": "NIV",
+      "variable": "spo2_pct",
+      "denominator": 80,
+      "observed_n": 73,
+      "missing_n": 7,
+      "median": 97,
+      "q1": 93,
+      "q3": 98
+    },
+    {
+      "group_name": "NRB",
+      "variable": "admission_age",
+      "denominator": 1977,
+      "observed_n": 1977,
+      "missing_n": 0,
+      "median": 68.9752630523811,
+      "q1": 56.74959053023596,
+      "q3": 80.7744313663574
+    },
+    {
+      "group_name": "NRB",
+      "variable": "fio2_pct",
+      "denominator": 1977,
+      "observed_n": 1977,
+      "missing_n": 0,
+      "median": 66,
+      "q1": 66,
+      "q3": 100
+    },
+    {
+      "group_name": "NRB",
+      "variable": "resp_rate",
+      "denominator": 1977,
+      "observed_n": 1674,
+      "missing_n": 303,
+      "median": 23,
+      "q1": 18,
+      "q3": 27
+    },
+    {
+      "group_name": "NRB",
+      "variable": "spo2_pct",
+      "denominator": 1977,
+      "observed_n": 1661,
+      "missing_n": 316,
+      "median": 97,
+      "q1": 93,
+      "q3": 99
+    },
+    {
+      "group_name": "Overall",
+      "variable": "admission_age",
+      "denominator": 2569,
+      "observed_n": 2569,
+      "missing_n": 0,
+      "median": 68.83688425147649,
+      "q1": 57.30936300072585,
+      "q3": 80.11435340586972
+    },
+    {
+      "group_name": "Overall",
+      "variable": "fio2_pct",
+      "denominator": 2569,
+      "observed_n": 2569,
+      "missing_n": 0,
+      "median": 66,
+      "q1": 60,
+      "q3": 100
+    },
+    {
+      "group_name": "Overall",
+      "variable": "resp_rate",
+      "denominator": 2569,
+      "observed_n": 2206,
+      "missing_n": 363,
+      "median": 23,
+      "q1": 19,
+      "q3": 27
+    },
+    {
+      "group_name": "Overall",
+      "variable": "spo2_pct",
+      "denominator": 2569,
+      "observed_n": 2191,
+      "missing_n": 378,
+      "median": 96,
+      "q1": 93,
+      "q3": 99
+    }
+  ],
+  "binary": [
+    {
+      "group_name": "HFNC",
+      "variable": "chf",
+      "denominator": 512,
+      "n": 186,
+      "missing_n": 0,
+      "pct": 36.33
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "copd",
+      "denominator": 512,
+      "n": 131,
+      "missing_n": 0,
+      "pct": 25.59
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "enrollment_flow_estimate",
+      "denominator": 512,
+      "n": 0,
+      "missing_n": 0,
+      "pct": 0.0
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "hfnc_ever",
+      "denominator": 512,
+      "n": 512,
+      "missing_n": 0,
+      "pct": 100.0
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "hosp_death28_icu_origin",
+      "denominator": 512,
+      "n": 138,
+      "missing_n": 0,
+      "pct": 26.95
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "niv_ever",
+      "denominator": 512,
+      "n": 48,
+      "missing_n": 0,
+      "pct": 9.38
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "no_code_status_documented",
+      "denominator": 512,
+      "n": 342,
+      "missing_n": 0,
+      "pct": 66.8
+    },
+    {
+      "group_name": "HFNC",
+      "variable": "nrb_ever",
+      "denominator": 512,
+      "n": 48,
+      "missing_n": 0,
+      "pct": 9.38
+    },
+    {
+      "group_name": "NIV",
+      "variable": "chf",
+      "denominator": 80,
+      "n": 47,
+      "missing_n": 0,
+      "pct": 58.75
+    },
+    {
+      "group_name": "NIV",
+      "variable": "copd",
+      "denominator": 80,
+      "n": 30,
+      "missing_n": 0,
+      "pct": 37.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "enrollment_flow_estimate",
+      "denominator": 80,
+      "n": 0,
+      "missing_n": 0,
+      "pct": 0.0
+    },
+    {
+      "group_name": "NIV",
+      "variable": "hfnc_ever",
+      "denominator": 80,
+      "n": 11,
+      "missing_n": 0,
+      "pct": 13.75
+    },
+    {
+      "group_name": "NIV",
+      "variable": "hosp_death28_icu_origin",
+      "denominator": 80,
+      "n": 14,
+      "missing_n": 0,
+      "pct": 17.5
+    },
+    {
+      "group_name": "NIV",
+      "variable": "niv_ever",
+      "denominator": 80,
+      "n": 80,
+      "missing_n": 0,
+      "pct": 100.0
+    },
+    {
+      "group_name": "NIV",
+      "variable": "no_code_status_documented",
+      "denominator": 80,
+      "n": 51,
+      "missing_n": 0,
+      "pct": 63.75
+    },
+    {
+      "group_name": "NIV",
+      "variable": "nrb_ever",
+      "denominator": 80,
+      "n": 2,
+      "missing_n": 0,
+      "pct": 2.5
+    },
+    {
+      "group_name": "NRB",
+      "variable": "chf",
+      "denominator": 1977,
+      "n": 793,
+      "missing_n": 0,
+      "pct": 40.11
+    },
+    {
+      "group_name": "NRB",
+      "variable": "copd",
+      "denominator": 1977,
+      "n": 322,
+      "missing_n": 0,
+      "pct": 16.29
+    },
+    {
+      "group_name": "NRB",
+      "variable": "enrollment_flow_estimate",
+      "denominator": 1977,
+      "n": 1365,
+      "missing_n": 0,
+      "pct": 69.04
+    },
+    {
+      "group_name": "NRB",
+      "variable": "hfnc_ever",
+      "denominator": 1977,
+      "n": 177,
+      "missing_n": 0,
+      "pct": 8.95
+    },
+    {
+      "group_name": "NRB",
+      "variable": "hosp_death28_icu_origin",
+      "denominator": 1977,
+      "n": 345,
+      "missing_n": 1,
+      "pct": 17.45
+    },
+    {
+      "group_name": "NRB",
+      "variable": "niv_ever",
+      "denominator": 1977,
+      "n": 144,
+      "missing_n": 0,
+      "pct": 7.28
+    },
+    {
+      "group_name": "NRB",
+      "variable": "no_code_status_documented",
+      "denominator": 1977,
+      "n": 969,
+      "missing_n": 0,
+      "pct": 49.01
+    },
+    {
+      "group_name": "NRB",
+      "variable": "nrb_ever",
+      "denominator": 1977,
+      "n": 1977,
+      "missing_n": 0,
+      "pct": 100.0
+    },
+    {
+      "group_name": "Overall",
+      "variable": "chf",
+      "denominator": 2569,
+      "n": 1026,
+      "missing_n": 0,
+      "pct": 39.94
+    },
+    {
+      "group_name": "Overall",
+      "variable": "copd",
+      "denominator": 2569,
+      "n": 483,
+      "missing_n": 0,
+      "pct": 18.8
+    },
+    {
+      "group_name": "Overall",
+      "variable": "enrollment_flow_estimate",
+      "denominator": 2569,
+      "n": 1365,
+      "missing_n": 0,
+      "pct": 53.13
+    },
+    {
+      "group_name": "Overall",
+      "variable": "hfnc_ever",
+      "denominator": 2569,
+      "n": 700,
+      "missing_n": 0,
+      "pct": 27.25
+    },
+    {
+      "group_name": "Overall",
+      "variable": "hosp_death28_icu_origin",
+      "denominator": 2569,
+      "n": 497,
+      "missing_n": 1,
+      "pct": 19.35
+    },
+    {
+      "group_name": "Overall",
+      "variable": "niv_ever",
+      "denominator": 2569,
+      "n": 272,
+      "missing_n": 0,
+      "pct": 10.59
+    },
+    {
+      "group_name": "Overall",
+      "variable": "no_code_status_documented",
+      "denominator": 2569,
+      "n": 1362,
+      "missing_n": 0,
+      "pct": 53.02
+    },
+    {
+      "group_name": "Overall",
+      "variable": "nrb_ever",
+      "denominator": 2569,
+      "n": 2027,
+      "missing_n": 0,
+      "pct": 78.9
+    }
+  ],
+  "qc": [
+    {
+      "check_name": "baseline_device_absent_from_ever",
+      "failures": 0
+    },
+    {
+      "check_name": "baseline_from_future_or_outside_window",
+      "failures": 0
+    },
+    {
+      "check_name": "category_partition_mismatch",
+      "failures": 0
+    },
+    {
+      "check_name": "cohort_changed",
+      "failures": 0
+    },
+    {
+      "check_name": "continuous_observed_missing_mismatch",
+      "failures": 0
+    },
+    {
+      "check_name": "duplicate_person",
+      "failures": 0
+    },
+    {
+      "check_name": "invalid_baseline_values",
+      "failures": 0
+    },
+    {
+      "check_name": "inverted_quartiles",
+      "failures": 0
+    },
+    {
+      "check_name": "null_first_event",
+      "failures": 0
+    },
+    {
+      "check_name": "primary_imv_changed",
+      "failures": 0
+    },
+    {
+      "check_name": "primary_threshold_changed",
+      "failures": 0
+    }
+  ],
+  "chronology_sensitivity": {
+    "definition": "exclude index-admission death before ICU admission; keep all other definitions",
+    "cohort_n": 2568,
+    "excluded_n": 1,
+    "events": [
+      {
+        "first_event": "120h censored",
+        "n": 243
+      },
+      {
+        "first_event": "Death",
+        "n": 129
+      },
+      {
+        "first_event": "ICU discharge",
+        "n": 1503
+      },
+      {
+        "first_event": "IMV",
+        "n": 693
+      }
+    ],
+    "hosp_death28_n": 497,
+    "threshold_n": 176,
+    "imv_3h_n": 41
+  },
+  "diagnostics": {
+    "baseline_vital_rows": 19481,
+    "baseline_vital_duplicate_keys": 0,
+    "death_imv_ties": 0,
+    "death_discharge_ties": 0,
+    "imv_discharge_ties": 0,
+    "deaths_recorded_before_icu": 1
+  }
+}

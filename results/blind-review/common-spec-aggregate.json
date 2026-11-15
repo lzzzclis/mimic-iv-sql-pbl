@@ -1,0 +1,611 @@
+{
+  "aggregate_flow": [
+    {
+      "result": {
+        "adult": 73181,
+        "base_valid": 62757,
+        "joined_base": 73181,
+        "nonsurgical": 63386,
+        "all_icu_stays": 73181,
+        "candidate_rows": 7413,
+        "no_limit_stays": 2751,
+        "candidate_stays": 3107,
+        "cohort_patients": 2569,
+        "cohort_no_code_status": 1362
+      }
+    }
+  ],
+  "aggregate_pf80": [
+    {
+      "met": 176,
+      "imv_3h": 41,
+      "pct": "23.295455",
+      "imv_strict3h": 41,
+      "imv_exact3h": 0,
+      "never_imv_short3h": 1,
+      "no_observed_imv_short3h": 2
+    }
+  ],
+  "aggregate_pf80_baseline_device": [
+    {
+      "baseline_device": 3,
+      "met": 122,
+      "imv_3h": 32,
+      "pct": "26.229508"
+    },
+    {
+      "baseline_device": 4,
+      "met": 48,
+      "imv_3h": 8,
+      "pct": "16.666667"
+    },
+    {
+      "baseline_device": 5,
+      "met": 6,
+      "imv_3h": 1,
+      "pct": "16.666667"
+    }
+  ],
+  "aggregate_pf80_current_device": [
+    {
+      "current_device": 3,
+      "met": 103,
+      "imv_3h": 28
+    },
+    {
+      "current_device": 4,
+      "met": 65,
+      "imv_3h": 12
+    },
+    {
+      "current_device": 5,
+      "met": 8,
+      "imv_3h": 1
+    }
+  ],
+  "aggregate_table2_categorical": [
+    {
+      "variable": "age",
+      "category": "18-39",
+      "n": 174,
+      "pct": "6.773063"
+    },
+    {
+      "variable": "age",
+      "category": "40-49",
+      "n": 171,
+      "pct": "6.656286"
+    },
+    {
+      "variable": "age",
+      "category": "50-59",
+      "n": 435,
+      "pct": "16.932659"
+    },
+    {
+      "variable": "age",
+      "category": "60-69",
+      "n": 567,
+      "pct": "22.070845"
+    },
+    {
+      "variable": "age",
+      "category": "70-79",
+      "n": 572,
+      "pct": "22.265473"
+    },
+    {
+      "variable": "age",
+      "category": "80+",
+      "n": 650,
+      "pct": "25.301674"
+    },
+    {
+      "variable": "anchor_age",
+      "category": "18-39",
+      "n": 191,
+      "pct": "7.434800"
+    },
+    {
+      "variable": "anchor_age",
+      "category": "40-49",
+      "n": 212,
+      "pct": "8.252238"
+    },
+    {
+      "variable": "anchor_age",
+      "category": "50-59",
+      "n": 481,
+      "pct": "18.723239"
+    },
+    {
+      "variable": "anchor_age",
+      "category": "60-69",
+      "n": 572,
+      "pct": "22.265473"
+    },
+    {
+      "variable": "anchor_age",
+      "category": "70-79",
+      "n": 549,
+      "pct": "21.370183"
+    },
+    {
+      "variable": "anchor_age",
+      "category": "80+",
+      "n": 564,
+      "pct": "21.954068"
+    },
+    {
+      "variable": "anchor_year_group",
+      "category": "2008 - 2010",
+      "n": 1071,
+      "pct": "41.689373"
+    },
+    {
+      "variable": "anchor_year_group",
+      "category": "2011 - 2013",
+      "n": 565,
+      "pct": "21.992993"
+    },
+    {
+      "variable": "anchor_year_group",
+      "category": "2014 - 2016",
+      "n": 474,
+      "pct": "18.450759"
+    },
+    {
+      "variable": "anchor_year_group",
+      "category": "2017 - 2019",
+      "n": 459,
+      "pct": "17.866874"
+    },
+    {
+      "variable": "baseline_device",
+      "category": "3",
+      "n": 1977,
+      "pct": "76.956014"
+    },
+    {
+      "variable": "baseline_device",
+      "category": "4",
+      "n": 512,
+      "pct": "19.929934"
+    },
+    {
+      "variable": "baseline_device",
+      "category": "5",
+      "n": 80,
+      "pct": "3.114052"
+    },
+    {
+      "variable": "chf_author",
+      "category": "false",
+      "n": 1543,
+      "pct": "60.062281"
+    },
+    {
+      "variable": "chf_author",
+      "category": "true",
+      "n": 1026,
+      "pct": "39.937719"
+    },
+    {
+      "variable": "chf_classroom",
+      "category": "false",
+      "n": 1520,
+      "pct": "59.166991"
+    },
+    {
+      "variable": "chf_classroom",
+      "category": "true",
+      "n": 1049,
+      "pct": "40.833009"
+    },
+    {
+      "variable": "copd_author",
+      "category": "false",
+      "n": 2086,
+      "pct": "81.198910"
+    },
+    {
+      "variable": "copd_author",
+      "category": "true",
+      "n": 483,
+      "pct": "18.801090"
+    },
+    {
+      "variable": "copd_classroom",
+      "category": "false",
+      "n": 2271,
+      "pct": "88.400156"
+    },
+    {
+      "variable": "copd_classroom",
+      "category": "true",
+      "n": 298,
+      "pct": "11.599844"
+    },
+    {
+      "variable": "death28",
+      "category": "false",
+      "n": 2071,
+      "pct": "80.615025"
+    },
+    {
+      "variable": "death28",
+      "category": "NULL",
+      "n": 1,
+      "pct": "0.038926"
+    },
+    {
+      "variable": "death28",
+      "category": "true",
+      "n": 497,
+      "pct": "19.346049"
+    },
+    {
+      "variable": "event120",
+      "category": "Administrative120h",
+      "n": 243,
+      "pct": "9.458933"
+    },
+    {
+      "variable": "event120",
+      "category": "Death",
+      "n": 130,
+      "pct": "5.060335"
+    },
+    {
+      "variable": "event120",
+      "category": "ICU discharge",
+      "n": 1503,
+      "pct": "58.505255"
+    },
+    {
+      "variable": "event120",
+      "category": "IMV",
+      "n": 693,
+      "pct": "26.975477"
+    },
+    {
+      "variable": "fio2_source",
+      "category": "NRB_flow_as_percent",
+      "n": 28,
+      "pct": "1.089918"
+    },
+    {
+      "variable": "fio2_source",
+      "category": "NRB_flow_formula",
+      "n": 1337,
+      "pct": "52.043597"
+    },
+    {
+      "variable": "fio2_source",
+      "category": "observed",
+      "n": 1204,
+      "pct": "46.866485"
+    },
+    {
+      "variable": "icu",
+      "category": "Cardiac",
+      "n": 606,
+      "pct": "23.588945"
+    },
+    {
+      "variable": "icu",
+      "category": "Medical-surgical",
+      "n": 1609,
+      "pct": "62.631374"
+    },
+    {
+      "variable": "icu",
+      "category": "Neuro-trauma",
+      "n": 354,
+      "pct": "13.779681"
+    },
+    {
+      "variable": "race_author",
+      "category": "Asian",
+      "n": 34,
+      "pct": "1.323472"
+    },
+    {
+      "variable": "race_author",
+      "category": "Black",
+      "n": 218,
+      "pct": "8.485792"
+    },
+    {
+      "variable": "race_author",
+      "category": "Other",
+      "n": 84,
+      "pct": "3.269755"
+    },
+    {
+      "variable": "race_author",
+      "category": "Unknown",
+      "n": 483,
+      "pct": "18.801090"
+    },
+    {
+      "variable": "race_author",
+      "category": "White",
+      "n": 1750,
+      "pct": "68.119891"
+    },
+    {
+      "variable": "race_extended",
+      "category": "Asian",
+      "n": 75,
+      "pct": "2.919424"
+    },
+    {
+      "variable": "race_extended",
+      "category": "Black",
+      "n": 249,
+      "pct": "9.692487"
+    },
+    {
+      "variable": "race_extended",
+      "category": "Hispanic",
+      "n": 94,
+      "pct": "3.659011"
+    },
+    {
+      "variable": "race_extended",
+      "category": "Other",
+      "n": 105,
+      "pct": "4.087193"
+    },
+    {
+      "variable": "race_extended",
+      "category": "Unknown",
+      "n": 210,
+      "pct": "8.174387"
+    },
+    {
+      "variable": "race_extended",
+      "category": "White",
+      "n": 1836,
+      "pct": "71.467497"
+    },
+    {
+      "variable": "sex",
+      "category": "F",
+      "n": 1112,
+      "pct": "43.285325"
+    },
+    {
+      "variable": "sex",
+      "category": "M",
+      "n": 1457,
+      "pct": "56.714675"
+    }
+  ],
+  "aggregate_table2_continuous": [
+    {
+      "variable": "admission_age",
+      "total": 2569,
+      "observed": 2569,
+      "missing": 0,
+      "quartiles": [
+        57.30936300072585,
+        68.83688425147649,
+        80.11435340586972
+      ]
+    },
+    {
+      "variable": "anchor_age",
+      "total": 2569,
+      "observed": 2569,
+      "missing": 0,
+      "quartiles": [
+        55.0,
+        67.0,
+        78.0
+      ]
+    },
+    {
+      "variable": "FiO2",
+      "total": 2569,
+      "observed": 2569,
+      "missing": 0,
+      "quartiles": [
+        60.0,
+        66.0,
+        100.0
+      ]
+    },
+    {
+      "variable": "RR_12h",
+      "total": 2569,
+      "observed": 2206,
+      "missing": 363,
+      "quartiles": [
+        19.0,
+        23.0,
+        27.0
+      ]
+    },
+    {
+      "variable": "SpO2_12h",
+      "total": 2569,
+      "observed": 2191,
+      "missing": 378,
+      "quartiles": [
+        93.0,
+        96.0,
+        99.0
+      ]
+    }
+  ],
+  "aggregate_ever_devices": [
+    {
+      "device_code": 3,
+      "n": 2027
+    },
+    {
+      "device_code": 4,
+      "n": 700
+    },
+    {
+      "device_code": 5,
+      "n": 272
+    }
+  ],
+  "aggregate_temporal_sensitivity": [
+    {
+      "scenario": "main",
+      "cohort": 2569,
+      "death28_evaluable": 2568,
+      "death28": 497,
+      "death28_unknown": 1,
+      "pf80": 176,
+      "imv_3h": 41
+    },
+    {
+      "scenario": "exclude_negative_death_from_selected_cohort",
+      "cohort": 2568,
+      "death28_evaluable": 2568,
+      "death28": 497,
+      "death28_unknown": 0,
+      "pf80": 176,
+      "imv_3h": 41
+    }
+  ],
+  "aggregate_event_sensitivity": [
+    {
+      "event120": "Administrative120h",
+      "main": 243,
+      "excluding_negative_death": 243
+    },
+    {
+      "event120": "Death",
+      "main": 130,
+      "excluding_negative_death": 129
+    },
+    {
+      "event120": "ICU discharge",
+      "main": 1503,
+      "excluding_negative_death": 1503
+    },
+    {
+      "event120": "IMV",
+      "main": 693,
+      "excluding_negative_death": 693
+    }
+  ],
+  "aggregate_code_audit": [
+    {
+      "itemid": 223758,
+      "value": "Comfort measures only",
+      "records": 72,
+      "stays": 60
+    },
+    {
+      "itemid": 223758,
+      "value": "DNI (do not intubate)",
+      "records": 15,
+      "stays": 8
+    },
+    {
+      "itemid": 223758,
+      "value": "DNR (do not resuscitate)",
+      "records": 131,
+      "stays": 75
+    },
+    {
+      "itemid": 223758,
+      "value": "DNR / DNI",
+      "records": 539,
+      "stays": 306
+    },
+    {
+      "itemid": 223758,
+      "value": "Full code",
+      "records": 2754,
+      "stays": 1295
+    },
+    {
+      "itemid": 228687,
+      "value": "DNAR (Do Not Attempt Resuscitation) [DNR]",
+      "records": 10,
+      "stays": 5
+    },
+    {
+      "itemid": 228687,
+      "value": "DNAR (Do Not Attempt Resuscitation) [DNR] / DNI",
+      "records": 8,
+      "stays": 6
+    },
+    {
+      "itemid": 228687,
+      "value": "Full code",
+      "records": 122,
+      "stays": 40
+    }
+  ],
+  "aggregate_qc": [
+    {
+      "result": {
+        "pf80_rows": 176,
+        "bad_pf_fio2": 0,
+        "cohort_rows": 2569,
+        "event_total": 2569,
+        "pf80_unique": 176,
+        "cohort_stays": 2569,
+        "null_outcome": 0,
+        "pf_before_t0": 0,
+        "future_vitals": 0,
+        "death_imv_ties": 0,
+        "no_code_status": 1362,
+        "cohort_patients": 2569,
+        "imv_discharge_ties": 0,
+        "negative_death_icu": 1,
+        "pf_at_or_after_imv": 0,
+        "death_discharge_ties": 0,
+        "pf_at_or_after_admin": 0,
+        "pf_recompute_mismatch": 0,
+        "negative_death_eligibility": 0
+      }
+    }
+  ],
+  "aggregate_device_qc": [
+    {
+      "current_device": 1,
+      "arterial_lowpf_records": 27,
+      "before_imv": 20
+    },
+    {
+      "current_device": 2,
+      "arterial_lowpf_records": 103,
+      "before_imv": 68
+    },
+    {
+      "current_device": 3,
+      "arterial_lowpf_records": 176,
+      "before_imv": 119
+    },
+    {
+      "current_device": 4,
+      "arterial_lowpf_records": 156,
+      "before_imv": 129
+    },
+    {
+      "current_device": 5,
+      "arterial_lowpf_records": 14,
+      "before_imv": 9
+    },
+    {
+      "current_device": 6,
+      "arterial_lowpf_records": 1,
+      "before_imv": 0
+    },
+    {
+      "current_device": null,
+      "arterial_lowpf_records": 244,
+      "before_imv": 7
+    }
+  ]
+}
